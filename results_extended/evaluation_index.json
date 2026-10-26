@@ -1,0 +1,86 @@
+{
+  "study": "distilling_extended_v1",
+  "new_cases_evaluated": [
+    {
+      "case_id": "teacher_seed2",
+      "weights_sha256": "57b466c6b9429ae704615f051c1411068e73b7d7086cf742566293a6a3eb22e8"
+    },
+    {
+      "case_id": "baseline_seed0",
+      "weights_sha256": "57473959337cf0294bfb14a8cec8867508c498734891d209d407a4b6fc980a38"
+    },
+    {
+      "case_id": "kd_seed0",
+      "weights_sha256": "ff17e661cc79e31916a54c104961bf695c0ea2a50b345ecfd5c93775ab0d8149"
+    },
+    {
+      "case_id": "baseline_seed1",
+      "weights_sha256": "e0badca2e51a311b4935493f269259c8fe19b9caa5544c17ba0634eab497dc47"
+    },
+    {
+      "case_id": "kd_seed1",
+      "weights_sha256": "bade9f10c2e48bbed90e68f788a28ecc7a66ea38d623db000eb30c5f23700bf1"
+    },
+    {
+      "case_id": "baseline_seed2",
+      "weights_sha256": "461cbce40c0def5954be0aface4cfa11f3b1e9cc2784322d2e5182045d44cc83"
+    },
+    {
+      "case_id": "kd_seed2",
+      "weights_sha256": "d5efc15926ee4436843e7b6a8007d22f4b7a051ab5c41fc078e8edbe62c47923"
+    },
+    {
+      "case_id": "kd_T1_seed0",
+      "weights_sha256": "dfa4f893c990bab7c594cff84333cdf9614fc576d930cd5bad50051ca5a92540"
+    },
+    {
+      "case_id": "kd_T1_seed1",
+      "weights_sha256": "a69f3b2c2a41b3b7f26f4ebb3e37ec7177ca6d7eefe8a9f5ad84be43b4d05068"
+    },
+    {
+      "case_id": "kd_T4_seed0",
+      "weights_sha256": "049860044a71a66604239d0d7a77109e9ec9fbb5762550dccaa13a77cd1c03eb"
+    },
+    {
+      "case_id": "kd_T4_seed1",
+      "weights_sha256": "eb582ce0d2c0965d4a3afc2bd56a46b09f83277b9926f5d0180d53422bf8fc9b"
+    },
+    {
+      "case_id": "kd_T8_seed0",
+      "weights_sha256": "f690757429a2b21d86f67f947b1776547290ee18b414cf03906da9eae9f34d4f"
+    },
+    {
+      "case_id": "kd_T8_seed1",
+      "weights_sha256": "0438a938cc724d98fddcdede01a4b5f0795177742db2b24d0b6bbdb5df84bdda"
+    },
+    {
+      "case_id": "kd_A0p1_seed0",
+      "weights_sha256": "0b2991aec73ddf726169b4afd27edd4dd9f4825a9d19c1aee9d16bf36c470358"
+    },
+    {
+      "case_id": "kd_A0p1_seed1",
+      "weights_sha256": "0d00531a33ebfe0bff6714bdb3a986319adfd199f8c43d41036961b9d2e45d96"
+    },
+    {
+      "case_id": "kd_A0p5_seed0",
+      "weights_sha256": "600e6ca607dc426f7ad34d6cded14854b37633c5eda7b7e08c6ca3b66139fcf1"
+    },
+    {
+      "case_id": "kd_A0p5_seed1",
+      "weights_sha256": "cb668b8e1d0b49401c0d91d809499f401a17355bac2c430424e1eee396720386"
+    },
+    {
+      "case_id": "kd_A0p75_seed0",
+      "weights_sha256": "02cc3ca5264548709b14353ba787b1779e9163ae3f4ed085d565b128ab7bf9df"
+    },
+    {
+      "case_id": "kd_A0p75_seed1",
+      "weights_sha256": "ba0fb239e772d8e5740f9b050125464dd7149687add3a430c7a0a1b362e74982"
+    }
+  ],
+  "legacy_teacher_evaluations_reused": [
+    "teacher_seed0",
+    "teacher_seed1"
+  ],
+  "exploratory_extension": true
+}

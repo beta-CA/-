@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/pytorch/tutorials",
+  "commit": "c8ccbbf7fcb8cb71adda1b957bd6bab50e29c2e6",
+  "source_path": "beginner_source/knowledge_distillation_tutorial.py",
+  "source_url": "https://raw.githubusercontent.com/pytorch/tutorials/c8ccbbf7fcb8cb71adda1b957bd6bab50e29c2e6/beginner_source/knowledge_distillation_tutorial.py",
+  "tutorial_url": "https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html",
+  "license": "BSD-3-Clause",
+  "files_sha256": {
+    "reference_source.txt": "3b67a998c063bf54638a3d0092ad1546a256adf8f49a94f4228d123f4022a69c",
+    "LICENSE": "5703fcbe2d5dfcc48d486d26e4b9d2e48255c24602e1bd0270b60b8978116f86",
+    "models.py": "64662897e1901b59809f4f4fa6dabfc83191144dc4db3f3eb6cb576b9061dce4"
+  },
+  "reuse": "DeepNN and LightNN class source copied verbatim. KD loss uses mathematically equivalent stable torch.kl_div; training, validation, checkpointing and summaries adapted for this controlled study."
+}

@@ -1,0 +1,303 @@
+{
+  "study": "distilling_extended_v1",
+  "main_seeds": [
+    0,
+    1,
+    2
+  ],
+  "ablation_seeds": [
+    0,
+    1
+  ],
+  "temperature_values": [
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "alpha_values": [
+    0.1,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "teacher_epochs": 10,
+  "student_epochs": 20,
+  "data": {
+    "dataset": "CIFAR10",
+    "split_seed": 20261026,
+    "train_size": 45000,
+    "validation_size": 5000,
+    "test_size": 10000
+  },
+  "training": {
+    "batch_size": 128,
+    "workers": 2,
+    "device": "cuda",
+    "precision": "float32",
+    "cpu_threads": 4,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "augmentation": "none",
+    "normalize_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalize_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "selection": "highest validation accuracy; earliest epoch wins ties",
+  "case_count": 21,
+  "new_or_continued_training_cases": 19,
+  "new_student_epochs": 320,
+  "new_teacher_epochs": 10,
+  "previously_completed_epochs": 60,
+  "total_actual_trained_epochs_after_extension": 390,
+  "rules": [
+    "Reuse original teacher seed0/1, independently train teacher seed2 for ten epochs.",
+    "Continue main student seed0/1 from epoch10, preserving optimizer/RNG/log history and original best.",
+    "Train all other students fresh for twenty epochs with paired student initialization per seed.",
+    "T2/alpha0.25 is the shared main default and is not retrained for either ablation table.",
+    "Vary one factor at a time; no T-by-alpha joint search.",
+    "All extension runs finish before final testing; no test-based recipe selection.",
+    "Original test results have already been inspected: this is an exploratory extension.",
+    "Original source/checkpoints/logs/evaluations remain unchanged."
+  ],
+  "cases": [
+    {
+      "run_id": "teacher_seed0",
+      "role": "teacher",
+      "seed": 0,
+      "epochs": 10,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": true
+    },
+    {
+      "run_id": "teacher_seed1",
+      "role": "teacher",
+      "seed": 1,
+      "epochs": 10,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": true
+    },
+    {
+      "run_id": "teacher_seed2",
+      "role": "teacher",
+      "seed": 2,
+      "epochs": 10,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "baseline_seed0",
+      "role": "baseline",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": "baseline_seed0",
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": "kd_seed0",
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "baseline_seed1",
+      "role": "baseline",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": "baseline_seed1",
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": "kd_seed1",
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "baseline_seed2",
+      "role": "baseline",
+      "seed": 2,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_seed2",
+      "role": "kd",
+      "seed": 2,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.25,
+      "group": "main",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_T1_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 1.0,
+      "alpha": 0.25,
+      "group": "temperature",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_T1_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 1.0,
+      "alpha": 0.25,
+      "group": "temperature",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_T4_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 4.0,
+      "alpha": 0.25,
+      "group": "temperature",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_T4_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 4.0,
+      "alpha": 0.25,
+      "group": "temperature",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_T8_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 8.0,
+      "alpha": 0.25,
+      "group": "temperature",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_T8_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 8.0,
+      "alpha": 0.25,
+      "group": "temperature",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_A0p1_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.1,
+      "group": "alpha",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_A0p1_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.1,
+      "group": "alpha",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_A0p5_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.5,
+      "group": "alpha",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_A0p5_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.5,
+      "group": "alpha",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_A0p75_seed0",
+      "role": "kd",
+      "seed": 0,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.75,
+      "group": "alpha",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    },
+    {
+      "run_id": "kd_A0p75_seed1",
+      "role": "kd",
+      "seed": 1,
+      "epochs": 20,
+      "temperature": 2.0,
+      "alpha": 0.75,
+      "group": "alpha",
+      "warm_start_run_id": null,
+      "reuse_legacy_teacher": false
+    }
+  ]
+}

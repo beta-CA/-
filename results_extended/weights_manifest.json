@@ -1,0 +1,1408 @@
+{
+  "study": "distilling_extended_v1",
+  "artifacts": [
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/best.pth",
+      "bytes": 4755327,
+      "sha256": "a22eb6e7cba9526fe2e97886f23972645fb06018c3cd2a9a3095d47ec0f04f3a"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/last.pth",
+      "bytes": 14285703,
+      "sha256": "3cc2fec9399c1dab448443d5b5e8dc3c433f91b030f7e810f17ecaa218a6b1e9"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/config.json",
+      "bytes": 2420,
+      "sha256": "c19c8cab3c0f213e633a8a998319b4f723384d3b181d4e9c1d1b3688999776dd"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/summary.json",
+      "bytes": 1043,
+      "sha256": "27bb68be5390ee1faefdbf9f7c3413af1bf024118776d0eed069ea54db250fb7"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/metrics.csv",
+      "bytes": 1229,
+      "sha256": "1d0ff9d120b517f04549e3f437bd75e1b0964589ca4d9a97437d812e46b49457"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/evaluation.json",
+      "bytes": 9543,
+      "sha256": "8d76a169f185f4e946f7071a22dbf2c6b43906a61b1ef11a372e1619ecb8cf71"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/predictions.csv",
+      "bytes": 287245,
+      "sha256": "2bb2d96720af6cfa7a9e00a8650fb7e8c986c794fec9215d7d88632c93603ebe"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs/teacher_seed0/confusion_matrix.csv",
+      "bytes": 381,
+      "sha256": "2192ad72d8567f2cb2b8a6fe0ee4986c92655ee356e99eeb495b12d3a33b9110"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/best.pth",
+      "bytes": 4755327,
+      "sha256": "c5a2f9beef1c8b48a22cfd86fefdf712d2a03467c5449bd599c1e50a2e20f85c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/last.pth",
+      "bytes": 14285767,
+      "sha256": "3144828f665ff48c470108ae956e333fa79f154b7ec06f02c923f1e3c02f4f55"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/config.json",
+      "bytes": 2420,
+      "sha256": "29324ae7633f215325f6f589d2cc4bd70f7cc5e0024a916fb90ff16bc6d9ec8d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/summary.json",
+      "bytes": 1043,
+      "sha256": "a5b8f54fd357a62f692582be35c530e38dda82c60f271f0d3883235aa0452862"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/metrics.csv",
+      "bytes": 1243,
+      "sha256": "3d8d9920bb9f659a9d2d950f70174841ddeb5fc30482af8293bc0a9405606928"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/evaluation.json",
+      "bytes": 9540,
+      "sha256": "e965f3e72347f8c1ccad8e923691553567ead3fa6b1e4195821b1102b66fa9de"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/predictions.csv",
+      "bytes": 288483,
+      "sha256": "8e8205567d64c1978e8d9003bde374f09d18e2c0644ae2c907b1a64a2a910f47"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs/teacher_seed1/confusion_matrix.csv",
+      "bytes": 378,
+      "sha256": "f53641856569d00c272cc995303196d87e37192743f4a0649f8b4b67782cd766"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/best.pth",
+      "bytes": 4755775,
+      "sha256": "57b466c6b9429ae704615f051c1411068e73b7d7086cf742566293a6a3eb22e8"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/last.pth",
+      "bytes": 14286215,
+      "sha256": "ef4e5c0a70bca7fbbef7d7111db48cc5e89a05d8a95e0ac706eab4da6597be6c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/config.json",
+      "bytes": 2865,
+      "sha256": "ecd6f73e27fc9509e61fe6320770d5578402028c28fa88170850f3346bd35a24"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/summary.json",
+      "bytes": 1043,
+      "sha256": "48ec5e5b489bec494e33522b666961cd2050a2eb2cdc9a874a5fae3b025b1bae"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/metrics.csv",
+      "bytes": 1237,
+      "sha256": "405a197da8af085d109d7865c4f655b77ff40a6c73f0128c3255cc575bfa6c8c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/evaluation.json",
+      "bytes": 10383,
+      "sha256": "343173c4a9b20cdc5d1a73abda2681f2d2915476657bb9686e23944ef3cf398c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/predictions.csv",
+      "bytes": 276475,
+      "sha256": "91fab6ff4e4ffc03b8a39b964bb4ddb3a70f3c2183dbfa64f24327b178873ef5"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_extended/teacher_seed2/confusion_matrix.csv",
+      "bytes": 382,
+      "sha256": "5219e813ffe2261945c52472fcf4d317a30beee49df1f6b35cb7cd2fcb7cecc2"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/best.pth",
+      "bytes": 1080589,
+      "sha256": "57473959337cf0294bfb14a8cec8867508c498734891d209d407a4b6fc980a38"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/last.pth",
+      "bytes": 3253687,
+      "sha256": "bae254743dfae2d750934c42970bc732661bdab2ee5f179283ae1e208a91b5c1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/config.json",
+      "bytes": 7067,
+      "sha256": "0bd6e43cb7653dfdef3bcc8bdc6abc9f83565ef787b16d50b5b4457097bf845d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/summary.json",
+      "bytes": 1041,
+      "sha256": "eeb80a420e98488226e48f1ebd71536a2643d044b4c80ad5c485473521ce3acc"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/metrics.csv",
+      "bytes": 2341,
+      "sha256": "9307a8904ebede0e86030a2cae2d91dfa044844c4663a37dbece2044d4c443cb"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/evaluation.json",
+      "bytes": 14804,
+      "sha256": "27b07ba4a21460f9ef5936b11d9102fe9b8cbec08dba1e12525777324cd439aa"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/predictions.csv",
+      "bytes": 288607,
+      "sha256": "bace6f54760390f34223a9b152331720adfbd4f040d49c9f83af88589f2d681b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_extended/baseline_seed0/confusion_matrix.csv",
+      "bytes": 395,
+      "sha256": "4b87ee2e8a1ec8ca757e61db3f6e93e06931eae86dfcf3894eb2f17187ffb5c4"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/best.pth",
+      "bytes": 1081101,
+      "sha256": "ff17e661cc79e31916a54c104961bf695c0ea2a50b345ecfd5c93775ab0d8149"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/last.pth",
+      "bytes": 3254135,
+      "sha256": "1c0ca149ce458c389e7a56732243d19ee89ec457d48050a9a9b3cfd141666488"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/config.json",
+      "bytes": 7627,
+      "sha256": "70d123e86dac492132c2744c967c85370d722cebb1b88e37ff0d6c1f16309f82"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "1f3cc497010af8fe8a642d3870767c917e081df6bd7d3c68787b86e211cda00e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/metrics.csv",
+      "bytes": 2679,
+      "sha256": "f0ce0f13acbdf0a9a6d18d511784e3646ba37b5f536ef2a8f2dc1cf60df92e16"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/evaluation.json",
+      "bytes": 15354,
+      "sha256": "2350c16f38cee8694269ef08737e16ab2ac7f15ef3585e38097a4dd18d27393e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/predictions.csv",
+      "bytes": 287777,
+      "sha256": "fe0b1c2b5e7885d1cd1129d1bc33f919295ac28d6b3985b6730c57f8a98c7553"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_extended/kd_seed0/confusion_matrix.csv",
+      "bytes": 394,
+      "sha256": "6d2268ed94335c7927058ee4d0f890b8a95ed317f6e96e91f9e5c408bf7f8600"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/best.pth",
+      "bytes": 1080589,
+      "sha256": "e0badca2e51a311b4935493f269259c8fe19b9caa5544c17ba0634eab497dc47"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/last.pth",
+      "bytes": 3253687,
+      "sha256": "025f7cc7ec93785f19ce227d5d96009d6f2a2d94bc9b9f49d4bede3d546e9713"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/config.json",
+      "bytes": 7067,
+      "sha256": "4c7d7f84a985ef54d3c4370c6eb4de6eb8223a3101d48929c95aefa149082388"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/summary.json",
+      "bytes": 1045,
+      "sha256": "5032a1e395961c3bf757c5e27cd6450772fced4a70332f5532efaddd9e4dca9e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/metrics.csv",
+      "bytes": 2352,
+      "sha256": "09c221327f5951390991af0b1ac43d4daafa8b8956ac61c799d7ef4302107b8e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/evaluation.json",
+      "bytes": 14823,
+      "sha256": "08cae0d526b2032acd17e6366a51ee651cfe25b13787de303f05ad67a05e005f"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/predictions.csv",
+      "bytes": 288485,
+      "sha256": "b5d67933147aeb828fea8a2864ea46e2b720f9b0279a62bb263fd93b743d346d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_extended/baseline_seed1/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "de66443d0faf2d0fcaf1404ea6e619e17258a094997401c40c8458ace1cb4024"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/best.pth",
+      "bytes": 1081101,
+      "sha256": "bade9f10c2e48bbed90e68f788a28ecc7a66ea38d623db000eb30c5f23700bf1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/last.pth",
+      "bytes": 3254135,
+      "sha256": "e7ce00b031d484649aa3fecda9e7d38375af1883fbfa404a01d968ad1df0a169"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/config.json",
+      "bytes": 7627,
+      "sha256": "5faf72501ad7c8e1438c1377bf85c59544d350a7f59cf47c5179bbfb843788e1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/summary.json",
+      "bytes": 1038,
+      "sha256": "da1249ca66164d4328dc140d948122993db462191f262857e85f53afdefc14d2"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/metrics.csv",
+      "bytes": 2653,
+      "sha256": "21cd5f11484c36e68901b97ed1ceff9d164688d557939539e3945950821fa0da"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/evaluation.json",
+      "bytes": 15404,
+      "sha256": "3b7a9bc2904b69e3e5f9c2777bfca2f305b8dc768800ea40cc9ad832b03e7194"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/predictions.csv",
+      "bytes": 288465,
+      "sha256": "c528ee1c51952881b8af7fcd35d305f05fe2eda4cc15c37e3de3c7d15015d587"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_extended/kd_seed1/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "f04f998e5ec8d940dcd19a9f4b549160a3ac2e855c0e75f8350b9cd3c69ac81c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/best.pth",
+      "bytes": 1077645,
+      "sha256": "461cbce40c0def5954be0aface4cfa11f3b1e9cc2784322d2e5182045d44cc83"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/last.pth",
+      "bytes": 3250551,
+      "sha256": "5460db51ed910eeff079cf357e22500d02c0508e399d5dffc04552b464979a61"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/config.json",
+      "bytes": 2867,
+      "sha256": "b8905b9fc12428570f2363ccbe35b6a0d4ec86975cf31649628dc75784146915"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/summary.json",
+      "bytes": 1043,
+      "sha256": "047cf5658c6a293ce2b8e3448c92f13fdd9b91a4366ded11a49a26020735ea7d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/metrics.csv",
+      "bytes": 2371,
+      "sha256": "6fe3600311147ba21af0ab8ebe4af985a1797b1498ac267c2f03f5a2156a5837"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/evaluation.json",
+      "bytes": 10458,
+      "sha256": "ffe6dd26b064905a6f4b5d0c17f60748a16e0feac0cb1bdbba0dc667bb3fb7b1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/predictions.csv",
+      "bytes": 288638,
+      "sha256": "b96653053da4b6f924f483f2a80e65a524863d4bc3a80c36daf7ceb120b231e7"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_extended/baseline_seed2/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "9519eac296a29ed0668c6ce9ff8d9e7aff98e0576a7e4f53fee87752863ac8f6"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/best.pth",
+      "bytes": 1077901,
+      "sha256": "d5efc15926ee4436843e7b6a8007d22f4b7a051ab5c41fc078e8edbe62c47923"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/last.pth",
+      "bytes": 3250743,
+      "sha256": "cfbf70f696ec2a8168f014b213b56a6ba8b23bb3aa4138b2c3817529336b2f9d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/config.json",
+      "bytes": 3146,
+      "sha256": "ee9bc264a1ea49513aef9e3b948cdca3b79c0f46f737a31610a16eef88d7bfa0"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/summary.json",
+      "bytes": 1037,
+      "sha256": "240e3d17ca7e61d83d1e387476e73459321b3a69208425d5c217db52cba693c7"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/metrics.csv",
+      "bytes": 2628,
+      "sha256": "55220b995f7cc6bfc31c6598292ecb9f232f026fe5b306c9379edac48a733e00"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/evaluation.json",
+      "bytes": 10711,
+      "sha256": "ac0ccd3c6083ed579c00c80e4e00b55d79e0502740a5384b7089b6dfc6b1ee9f"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/predictions.csv",
+      "bytes": 283785,
+      "sha256": "f16add08358db73bd169ff0deb8f11311089b8235b833a59406050afb2695ef6"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_extended/kd_seed2/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "9f5d130dc0e68366300460bda496af35ed51bef73c65d4cfc2025b7168206d6c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/best.pth",
+      "bytes": 1077837,
+      "sha256": "dfa4f893c990bab7c594cff84333cdf9614fc576d930cd5bad50051ca5a92540"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/last.pth",
+      "bytes": 3250743,
+      "sha256": "7adc1d3d909ce758bf3fe4bc4ef4219ce7d11734673ebf6cc50eb6b7fd5e656d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/config.json",
+      "bytes": 3147,
+      "sha256": "59e29f37a1bf20ba19d1faed44ac08e3e08c1e1b1f547ab103ff1b92f1350016"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "7ee94c46e9a82b39e00dfaa9215b7f3599d3a4211d83c2886869f7e578af4bc3"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/metrics.csv",
+      "bytes": 2692,
+      "sha256": "a2f2a63c2912a8b5e119820ebaec53bb16eb3ea3e2e8690aaa8a41688c459e10"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/evaluation.json",
+      "bytes": 10719,
+      "sha256": "21f6546d944e909fb602209fd714d40e9eedceb62e4b40f554685c1fa92d5e24"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/predictions.csv",
+      "bytes": 287965,
+      "sha256": "00640ff89295daaec72c3629afe57b9f3d654149b83f4d0a31b8f98f5ac144f0"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_extended/kd_T1_seed0/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "d7a656533b6ddfdf33515e11031932087387878391d4e393aa08b4e869a6d660"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/best.pth",
+      "bytes": 1077837,
+      "sha256": "a69f3b2c2a41b3b7f26f4ebb3e37ec7177ca6d7eefe8a9f5ad84be43b4d05068"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/last.pth",
+      "bytes": 3250807,
+      "sha256": "ed36e576e106c68261d2147dafa46996dc44ccdf965117c8832956504054cc56"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/config.json",
+      "bytes": 3147,
+      "sha256": "4354044eebd81ddec86c938e3d8257fd62735cd687feb9928f709d70c7bf1208"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "f863a92436b2319e10e9fe488cce6950ea764ac8a421058fcd9fe4be51e0be6b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/metrics.csv",
+      "bytes": 2668,
+      "sha256": "d751b62f59ba03b91f371df451e1280c23b58f27956127b73ab0d5f340f7060e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/evaluation.json",
+      "bytes": 10770,
+      "sha256": "76a51fcc04d881b340479210307a83c815507a217bbd2c4f94e619fb759bbd28"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/predictions.csv",
+      "bytes": 288118,
+      "sha256": "1dc21ddee141d2ba3f768a80e2c2ef3b0bbde74d7a86d0bfcdc492739957adf3"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_extended/kd_T1_seed1/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "41b6e1f9c552497feaf02cf9d9f76987aa918e9ec7d8378778feb18762441f34"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/best.pth",
+      "bytes": 1077837,
+      "sha256": "049860044a71a66604239d0d7a77109e9ec9fbb5762550dccaa13a77cd1c03eb"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/last.pth",
+      "bytes": 3250743,
+      "sha256": "c82c342d10edf86ee9c682bc4e2744d0e79de1469a9bb37bdd056feb4d6d59ab"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/config.json",
+      "bytes": 3147,
+      "sha256": "ee6d98a31251d17ca866f493eec6aa4d9f89e48d459026bd326ef06eb25680c8"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/summary.json",
+      "bytes": 1038,
+      "sha256": "59fe8a27b6764c1dc18bed521bdeb561e8573a71272b0fcf2a054a8a40b7ed8d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/metrics.csv",
+      "bytes": 2616,
+      "sha256": "7a7be6710cde8d14a0aed8bf8865266889ed15c6c12a2cc39f25332ea03a5e69"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/evaluation.json",
+      "bytes": 10715,
+      "sha256": "be9b24bb0b59c6b0867b54316051edf0098836d779b3f40b8c62997cea659710"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/predictions.csv",
+      "bytes": 287754,
+      "sha256": "634857fecd0d5b3c96f13d94be88e2cf5d45851a5780a93508ec86e6ba176225"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_extended/kd_T4_seed0/confusion_matrix.csv",
+      "bytes": 390,
+      "sha256": "98a7e69654890012ffc94efde54fb69e00333af56ced803d5d9e07e831cde174"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/best.pth",
+      "bytes": 1077837,
+      "sha256": "eb582ce0d2c0965d4a3afc2bd56a46b09f83277b9926f5d0180d53422bf8fc9b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/last.pth",
+      "bytes": 3250807,
+      "sha256": "65d6363227451c6fc4a618ec1fd577f3ff70ab8a9da065907d956c1199733c8f"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/config.json",
+      "bytes": 3147,
+      "sha256": "ceb241a8a70611d0adfb115c83dbd0b0029501cf978709bb997210812b11e651"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/summary.json",
+      "bytes": 1038,
+      "sha256": "83ba43487914073d1e06421c71ce4ec7b9a65a5757ba8caab58c29f4ad1b98a3"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/metrics.csv",
+      "bytes": 2648,
+      "sha256": "a3bca497a558e5026f9c4488b684af1d06226199342f694d1bb5dd8a30841889"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/evaluation.json",
+      "bytes": 10705,
+      "sha256": "b3b256e6d8a3458722eff7b2fdecd746495818999e6ec2936c7a062064afcae0"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/predictions.csv",
+      "bytes": 288436,
+      "sha256": "c344c10f60805240c1e0694fe4f0d09569ea2b612926ac6120f532dec4b1612e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_extended/kd_T4_seed1/confusion_matrix.csv",
+      "bytes": 386,
+      "sha256": "444042abe2380570c270c63d954649c1fb76715edd2f81d8dfadab184db98b29"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/best.pth",
+      "bytes": 1077837,
+      "sha256": "f690757429a2b21d86f67f947b1776547290ee18b414cf03906da9eae9f34d4f"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/last.pth",
+      "bytes": 3250679,
+      "sha256": "d06e31cd20d412e4d67425c3af098f651777341fa2011f7e619c2f1d0932870c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/config.json",
+      "bytes": 3147,
+      "sha256": "7126e7236266fa81b3ef8fafa4258155c2990756372ec33465bebaba9cd42a56"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "511b911003f28abb37d90636f56eaec2ef704821ce24f051a506229de99b6014"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/metrics.csv",
+      "bytes": 2669,
+      "sha256": "7545d183575ab5496caa63118c1db4193a4ccc9502e2018836ca229e0fdbacbb"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/evaluation.json",
+      "bytes": 10717,
+      "sha256": "29626ad720e7f11e87f45f3f92e915b97a1e42b31d5ddda483e6300deee21507"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/predictions.csv",
+      "bytes": 287628,
+      "sha256": "f903a3e159b6a1249af628306c25d20313f65994e18a8c2bca2a4ad95b7b6bd1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_extended/kd_T8_seed0/confusion_matrix.csv",
+      "bytes": 385,
+      "sha256": "fd25a752b393735cffe6ad1bdc11d77de126a549a2d792d90f197def95a7c9e9"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/best.pth",
+      "bytes": 1077837,
+      "sha256": "0438a938cc724d98fddcdede01a4b5f0795177742db2b24d0b6bbdb5df84bdda"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/last.pth",
+      "bytes": 3250743,
+      "sha256": "5fa719343acb29762d8cf9334aab2501b2259155d3da0ca344c88cd239d7387b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/config.json",
+      "bytes": 3147,
+      "sha256": "b1aa83facac39d8be37ef47dfe292ddae5e2c9dfdcd505d9c4bb40cbbe04405d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/summary.json",
+      "bytes": 1038,
+      "sha256": "41ceb480c612ca1b456c378f02bdec9f44b13303257bad51a8c67115dbd4c848"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/metrics.csv",
+      "bytes": 2671,
+      "sha256": "ada5f1b71a3c465ede6ca23b0eec59918f31af820256fc788648fc8e0d330d72"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/evaluation.json",
+      "bytes": 10741,
+      "sha256": "8d46d2472f6e0ac34404673363606c19af39927fe99067e6e92e373a1c9af8e6"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/predictions.csv",
+      "bytes": 288523,
+      "sha256": "d5b5e586dfb2071e816d1535d03f12c247f0a29a342e61d598edec87f9503b61"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_extended/kd_T8_seed1/confusion_matrix.csv",
+      "bytes": 387,
+      "sha256": "cd7d3abc8e7b90fbafda457dafbbb59e20c40d8b458c600872820c255f984e33"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/best.pth",
+      "bytes": 1077837,
+      "sha256": "0b2991aec73ddf726169b4afd27edd4dd9f4825a9d19c1aee9d16bf36c470358"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/last.pth",
+      "bytes": 3250743,
+      "sha256": "a76ff1ac1eee9217c47b0eb6642bd59df426663851238ffd002dcb70397052d9"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/config.json",
+      "bytes": 3142,
+      "sha256": "4afe5b308d282324853527d5011da516200c0a399ad898c388415d821183109d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "3cb25d51c1af68d25447729ab4cabbfb7779bff2d7acce442b19de4069fa5e52"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/metrics.csv",
+      "bytes": 2653,
+      "sha256": "a5089effd5eefbe7cf115ae83ec44c35e95eea35aa5197e62beb1df4ee7fd16e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/evaluation.json",
+      "bytes": 10727,
+      "sha256": "e4bd88707ba7b1d0fe5e912dbc8db83fc13bc24190e94b02e0c06ebe3bdeae71"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/predictions.csv",
+      "bytes": 288264,
+      "sha256": "edce6fc659a2d06facc6d3bde069d87c27cd6f15e4be352f11f2a4a806e06b04"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed0/confusion_matrix.csv",
+      "bytes": 388,
+      "sha256": "6394a2f4f92dfe01ba000cb3c31ab46f1fb5d56e2c1611f1f8473be2b90ee2b6"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/best.pth",
+      "bytes": 1077837,
+      "sha256": "0d00531a33ebfe0bff6714bdb3a986319adfd199f8c43d41036961b9d2e45d96"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/last.pth",
+      "bytes": 3250807,
+      "sha256": "0d9956b1325c15663bb275e23a3ebc4337cbd29410aef889978bd7c201be2e29"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/config.json",
+      "bytes": 3142,
+      "sha256": "408a747dbc2669a49314567ed515fca720c8c0675eb5a45da659c142bf450a9d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "7fd712358fc89d59c503aee465b9fad9d7febde34c3fcd562ff05b9f157dd530"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/metrics.csv",
+      "bytes": 2606,
+      "sha256": "c3a5a692de79290382f58cac118860e9cbf479f87842347c5086883971cfca79"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/evaluation.json",
+      "bytes": 10708,
+      "sha256": "b9cd1a4731018e051936c91dcbc3f313dd97ede2bc6eb256948dee9471016aee"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/predictions.csv",
+      "bytes": 288689,
+      "sha256": "8fa972fd3eee48b50bad134848b91250cf5b5e17c58ab2aa590750a46fe03b54"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p1_seed1/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "0fcbaaca5b16dc321046e275acd94a420bd155bc6bbd30dcda7066a588ec4f8a"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/best.pth",
+      "bytes": 1077837,
+      "sha256": "600e6ca607dc426f7ad34d6cded14854b37633c5eda7b7e08c6ca3b66139fcf1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/last.pth",
+      "bytes": 3250743,
+      "sha256": "c27ee1d1c17f0f8f9daf1dea3eb32c8adb80325355fae885707b2abd5a8d566d"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/config.json",
+      "bytes": 3142,
+      "sha256": "1ec4be550ade59bbd5bd9cf970be8c23a24407681a477b946809728eae20cefe"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "5a76d3e16374bafb21de414a40a61c6cbeb9da2d7dc5eb45756d52f0e3efb9af"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/metrics.csv",
+      "bytes": 2654,
+      "sha256": "2c5894fe7b1a2cc4d9b2a2cedd134bd9cfec4536e72ef8ac5502a02bf993e8a7"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/evaluation.json",
+      "bytes": 10712,
+      "sha256": "1c10130d7474946426704250052f440a7a3ef4626bdee8d0d569e8b861d74403"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/predictions.csv",
+      "bytes": 288081,
+      "sha256": "e7f9e4823b6b01e326240cf17b1ffb93cc3b42313da0f31dd96ba944777fad5e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed0/confusion_matrix.csv",
+      "bytes": 394,
+      "sha256": "ca47025e61093194dc7f083f8024d3c6cc2040714ac8babc747c4104071f1d51"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/best.pth",
+      "bytes": 1077837,
+      "sha256": "cb668b8e1d0b49401c0d91d809499f401a17355bac2c430424e1eee396720386"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/last.pth",
+      "bytes": 3250807,
+      "sha256": "698c6bd5ead6b361f2eafb820adad1d0c569b824cbc49f8ba8299616d20cb59e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/config.json",
+      "bytes": 3142,
+      "sha256": "508fd26c3e46c1ea64a918d208ff8aaef465c320d37b1e56f1978d460047a96e"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "d92a860d1c1691f0726dcb83d21052b7b4a41b805c6e22ed7d7414c336cda60b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/metrics.csv",
+      "bytes": 2646,
+      "sha256": "e1f207b89fbf4beaafc0528b2bd4e6ba68049a2670fc62d0ebaa4e91aff21367"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/evaluation.json",
+      "bytes": 10728,
+      "sha256": "6a3886134983b4b1028fdf9a5475bb78e75eb0e9eb020e2470012469e511640f"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/predictions.csv",
+      "bytes": 288580,
+      "sha256": "ffe767aa3190386481f716cdd744c240f1985f0c2b41e9babdd5d5134bbb94bf"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p5_seed1/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "c929fe077802c35a2b4c11228d478d8ca8488f168162fa7fe6c61556eebdf8e1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/best.pth",
+      "bytes": 1077837,
+      "sha256": "02cc3ca5264548709b14353ba787b1779e9163ae3f4ed085d565b128ab7bf9df"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/last.pth",
+      "bytes": 3250679,
+      "sha256": "4e4c45def734f44ff10d8904a3de9ce115414a6c23a41d0976bf708f9bc7e911"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/config.json",
+      "bytes": 3144,
+      "sha256": "1cef406e2a5473047707333313c1e249c6bc21b89d0ecbe6f84c69ecb025a182"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "7c9a0139bd991f21d4ac713ef9c0dbca821dd8e51e3ec9e4975da890747c5ee2"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/metrics.csv",
+      "bytes": 2642,
+      "sha256": "e2ae3e518cd41d698133eade7a3b72436005385f8eb7e2686220005df0a9f5c0"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/evaluation.json",
+      "bytes": 10746,
+      "sha256": "16bcec2b946d398d2bcd715953e5549cde86176e4852486200d7ddaa457a589c"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/predictions.csv",
+      "bytes": 288036,
+      "sha256": "10420129f0c44d01daeffd9674dc42b8daf3493d4dc0b7245cc4c01443a889b1"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed0/confusion_matrix.csv",
+      "bytes": 390,
+      "sha256": "6e556f0dc8f8bb205336296e577373c8d9aa6405cc6f3fd73f0acc53d28e8e29"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/best.pth",
+      "bytes": 1077837,
+      "sha256": "ba0fb239e772d8e5740f9b050125464dd7149687add3a430c7a0a1b362e74982"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/last.pth",
+      "bytes": 3250743,
+      "sha256": "a65c4998615f696b3787d725bd663eeb11224283203e7aea76cc0a5ff4aba8b4"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/config.json",
+      "bytes": 3144,
+      "sha256": "87d3871f72ef0ad05a59445670b463e8b1d7ecf12a5ffffda65f8505834d46a5"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "da1be8e7323c856b64c9f749c57f82e06a72d70a9e01108641297af0bbde7a0b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/metrics.csv",
+      "bytes": 2674,
+      "sha256": "1628c40319112ea066d5ebd8badc0896bb54708b9c4e448da19fb97b77fc7dee"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/evaluation.json",
+      "bytes": 10703,
+      "sha256": "c9b04a14a59162458f03990c1f0464ce95e78f9bb2cb752bcf23b7bdd064d10b"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/predictions.csv",
+      "bytes": 288658,
+      "sha256": "ff243ee723360a7ff2f9c19afe85c1b1d470d6c21b7fd075154e62a174045851"
+    },
+    {
+      "kind": "extension_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_extended/kd_A0p75_seed1/confusion_matrix.csv",
+      "bytes": 389,
+      "sha256": "a31e7e537a8055d2318fa00803238e7df51ca9a937d8859e1e998e6d207ae49d"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/best.pth",
+      "bytes": 1077197,
+      "sha256": "bc412f990da71fbb23f1b5baeb233ae98a6539b59176a75e9da7a5689f20c3fe"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/last.pth",
+      "bytes": 3250039,
+      "sha256": "ae16712178f7ae7d3067430659f148ad306717540db7d61af0b0338bfc6fa88a"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/config.json",
+      "bytes": 2421,
+      "sha256": "867b678143192dbdaa276ae9520726fd033582eb7ebbb9d99b2b5c1c790a1b45"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/summary.json",
+      "bytes": 1041,
+      "sha256": "cd96bd58c404e898bdbfc45fe15e9d0848dbaf05f0633c607e52000982671e69"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/metrics.csv",
+      "bytes": 1204,
+      "sha256": "2dbdf8f191896d3f6794e56c53439d1b3b475097621c05505be024df3d650a83"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/evaluation.json",
+      "bytes": 9609,
+      "sha256": "ac0239481593fbb6ed02bac3a430e9e52be0c96b2d183d22bfe3e631d43a9a5c"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/predictions.csv",
+      "bytes": 288607,
+      "sha256": "bace6f54760390f34223a9b152331720adfbd4f040d49c9f83af88589f2d681b"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs/baseline_seed0/confusion_matrix.csv",
+      "bytes": 395,
+      "sha256": "4b87ee2e8a1ec8ca757e61db3f6e93e06931eae86dfcf3894eb2f17187ffb5c4"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/best.pth",
+      "bytes": 1077453,
+      "sha256": "35dae31b3672e37b5ed84d8a48ea437eb9f43db179cd9171516472f5921b1886"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/last.pth",
+      "bytes": 3250295,
+      "sha256": "c432b8443e19e4f9f192a8f3f70264681c322d189888e8ef4da138b569cbcdef"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/config.json",
+      "bytes": 2697,
+      "sha256": "41ef3a92b427d779e35ad24705f47c98363f402c02dd34d2c48270f098fd9c39"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/summary.json",
+      "bytes": 1037,
+      "sha256": "3c882ae649e836765369763e2eb8b0a826bd34ce68b37c9670e1714c59beae10"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/metrics.csv",
+      "bytes": 1383,
+      "sha256": "78a34ef6eea56a32e7a92af9dba72ca54191fd0d5f0f9ccc774b2d93380ec7e0"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/evaluation.json",
+      "bytes": 9904,
+      "sha256": "0139f9d788692d1043a68a501aeca5b79dca383b9da8aca4958734d3baac0ee3"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/predictions.csv",
+      "bytes": 288327,
+      "sha256": "0cf3fe555945ff3232edfd89fb3e70a4fc3a366039c3bec0f68337b426b5fff1"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs/kd_seed0/confusion_matrix.csv",
+      "bytes": 396,
+      "sha256": "dc20ba7fbb47558e7c51527c4763edab819726a100a6f5a69487de19432e141e"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/best.pth",
+      "bytes": 1077197,
+      "sha256": "085808eb9cb80e3840c01d6fe93293b1a85e310920a81d54c00249d7bb65cb15"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/last.pth",
+      "bytes": 3250039,
+      "sha256": "6422ed15105e4e8d84a5b36ef4a0df2130867dc83fd1ddc113ba75dceea441f9"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/config.json",
+      "bytes": 2421,
+      "sha256": "5383983914fde313ae1f46de667853df526d4e9342d5f45a6c212dab1a159611"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/summary.json",
+      "bytes": 1045,
+      "sha256": "ad9e5828f257e7f330341fbedd3b63d8f9e0c31ccdee02b4ca7f5bd7754060ea"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/metrics.csv",
+      "bytes": 1204,
+      "sha256": "03de5f79827ba434ed12a3c7ec3e9eb1d7d46c124ef363638185c609def2b770"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/evaluation.json",
+      "bytes": 9642,
+      "sha256": "570b89df1ee8c1019935e5846e8adf538cb3e67a990f67086f4fe0155ac9ddba"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/predictions.csv",
+      "bytes": 288445,
+      "sha256": "94bca56639ce3ddfd628b81e0dd3e126cf8f736d31de7451e5a14d6877fb5d8d"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs/baseline_seed1/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "004c1439c761f928aeac5542ba00765d296805e80688e3b7ba84ddfc3d212013"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/best.pth",
+      "bytes": 1077453,
+      "sha256": "427bd4ea52a27d7f344887dec6784d286ffb18beb4789018a9c6892e2bfab692"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/last.pth",
+      "bytes": 3250295,
+      "sha256": "602d80ca90841789f257b47409b0f66649d462d7f5ecc2fe7e5b9aea0d39b3b1"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/config.json",
+      "bytes": 2697,
+      "sha256": "5febbbe5d4afba4f1093294e867ee159e9d04b514bca6adc0576ec747aaf6d84"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "928ee9dc00b5c4fadaee56e38bfba3a54080dfe5d32cd3ebba690d32ed5f3569"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/metrics.csv",
+      "bytes": 1352,
+      "sha256": "cd9be812062dd4efe46227e009cc1293df12a5590db6b251578b9a52be0b69aa"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/evaluation.json",
+      "bytes": 9886,
+      "sha256": "b88698af90d0369951420005033b610443a8e1a2f8abbfad46ff39fa6509e5c6"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/predictions.csv",
+      "bytes": 288761,
+      "sha256": "2a5dd029b49b0d3251bd49ad7b3d222f6f4a34f88ce3a8ea4952fadddb5ec8b7"
+    },
+    {
+      "kind": "original10_student_reference",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs/kd_seed1/confusion_matrix.csv",
+      "bytes": 388,
+      "sha256": "b8a58bf16317b6ddc45016ba8f5bc5afcfdd2de0c643bbb1d150339a4c562b6f"
+    }
+  ],
+  "weight_selection": "highest validation accuracy; earliest epoch wins ties",
+  "split_sha256": "200ea914f794a2b79bca5e1f0f83ddfa81b2b490c5208ba03f78af78e0c1a5f2",
+  "note": "Includes immutable legacy dependencies. This manifest does not publish files."
+}

@@ -1,0 +1,7 @@
+# Observed working environment; use the matching CUDA wheel index for a new installation.
+python==3.12.13
+torch==2.13.0+cu126
+torchvision==0.28.0+cu126
+numpy==2.4.4
+matplotlib==3.11.0
+# CUDA runtime: 12.6; NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB.
