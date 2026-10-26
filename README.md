@@ -121,3 +121,20 @@ model.eval()
 公开副本仅将 `main.py` 的本机解释器提示改为通用提示，并移除 `requirements.txt` 首行的本机路径注释；
 README和gitignore为发布用途重新编写。这些变化不修改训练算法或已发布检查点。
 `NOTICE.md`和vendor许可证保留上游归属；若再分发上游代码，应同时保留这些文件。
+
+
+## 论文中文图
+
+`paper_figures/`提供图1至图6的现成PNG与可编辑SVG，图7为补充类别分析图。
+图中文字标注为中文，采用黑白线型、标记和纹理，适合论文打印。
+在安装宋体（SimSun）与Times New Roman字体的环境中，可从仓库根目录运行：
+
+```powershell
+python paper_figures/draw_paper_figures.py
+```
+
+该命令只读取附带的最小绘图数据并重新生成图，不训练或测试模型。
+数据来自已审计的正式记录；ECE是15等宽置信区间的事后补充诊断，不是新增实验。
+最小数据副本已裁去本机绝对路径和不需要的配置，来源说明见`paper_figures/data/DATA_NOTE.md`。
+SVG保留可编辑文字，实际图文件哈希见`paper_figures/figure_manifest.json`。
+本次主分支的中文图追加不改动v1.0.0已发布ZIP和标签。

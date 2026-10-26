@@ -1,0 +1,101 @@
+[
+  {
+    "center": [
+      50,
+      132
+    ],
+    "width": 47,
+    "height": 12,
+    "text": "同一输入图像"
+  },
+  {
+    "center": [
+      24,
+      109
+    ],
+    "width": 36,
+    "height": 14,
+    "text": "教师网络\n参数固定"
+  },
+  {
+    "center": [
+      76,
+      109
+    ],
+    "width": 36,
+    "height": 14,
+    "text": "学生网络\n参数可更新"
+  },
+  {
+    "center": [
+      24,
+      86
+    ],
+    "width": 36,
+    "height": 12,
+    "text": "教师输出"
+  },
+  {
+    "center": [
+      76,
+      86
+    ],
+    "width": 36,
+    "height": 12,
+    "text": "学生输出"
+  },
+  {
+    "center": [
+      24,
+      63
+    ],
+    "width": 36,
+    "height": 15,
+    "text": "温度软化\n教师软目标"
+  },
+  {
+    "center": [
+      76,
+      63
+    ],
+    "width": 36,
+    "height": 15,
+    "text": "温度软化\n学生软输出"
+  },
+  {
+    "center": [
+      50,
+      40
+    ],
+    "width": 44,
+    "height": 14,
+    "text": "蒸馏损失\n$T^2$×相对熵"
+  },
+  {
+    "center": [
+      24,
+      16
+    ],
+    "width": 28,
+    "height": 12,
+    "text": "真实标签"
+  },
+  {
+    "center": [
+      76,
+      16
+    ],
+    "width": 36,
+    "height": 14,
+    "text": "标签损失\n交叉熵"
+  },
+  {
+    "center": [
+      50,
+      -9
+    ],
+    "width": 75,
+    "height": 17,
+    "text": "加权总损失\n$(1-\\alpha)$×标签损失＋$\\alpha$×蒸馏损失"
+  }
+]

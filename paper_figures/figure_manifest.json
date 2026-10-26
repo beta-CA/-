@@ -1,0 +1,140 @@
+{
+  "source_snapshot": "data",
+  "read_only_analysis": true,
+  "all_charts_chinese": true,
+  "monochrome": true,
+  "unit_label_style": "quantity/unit",
+  "chinese_font": "SimSun",
+  "latin_font": "Times New Roman",
+  "mathematical_variables_italic": true,
+  "source_script_sha256": "1c30b205f7ac3f35601270a3219e3b561d17e639fd81dfa7ad3fe54ef70840d5",
+  "figures": [
+    {
+      "stem": "图1_知识蒸馏流程",
+      "caption": "教师与学生的知识蒸馏流程",
+      "note": "原创示意图。教师固定为评价模式；温度软目标只用于蒸馏项；标签交叉熵使用学生原始输出。",
+      "width_inches": 3.2,
+      "height_inches": 3.6,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图1_知识蒸馏流程.png",
+      "svg": "图1_知识蒸馏流程.svg",
+      "png_sha256": "ba3d34ebfc1e5d34dc445ac3f3bb80ae13bdf91f819e4d582ece4867b3b4fbb8",
+      "svg_sha256": "6001933192b5c1d91739684d26903e318b8389a9c6147f509510edd548950fbd"
+    },
+    {
+      "stem": "图2_验证准确率曲线",
+      "caption": "主实验的验证准确率变化",
+      "note": "曲线为3个随机种子均值，灰色区域为样本标准差。教师10轮，学生20轮。",
+      "width_inches": 3.2,
+      "height_inches": 2.8,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图2_验证准确率曲线.png",
+      "svg": "图2_验证准确率曲线.svg",
+      "png_sha256": "9086f984e133df3fecc260c792372592fc2d094460d5ce3e631a084f0861c6fa",
+      "svg_sha256": "df214cd5b90582ea1e70a8fbaea6ad91808f498456fe064329d91e3734254809"
+    },
+    {
+      "stem": "图3_温度消融",
+      "caption": "不同温度下的测试准确率",
+      "note": "固定α=0.25；各设置采用随机种子0和1。误差线为样本标准差。",
+      "width_inches": 3.2,
+      "height_inches": 3.15,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图3_温度消融.png",
+      "svg": "图3_温度消融.svg",
+      "png_sha256": "543a1fdcd1cd6aec35d901bee9ab6dd2ac368e686dc9c20657bb053e1449ce88",
+      "svg_sha256": "6b2df8d5d0eb6d010e3d0114e0b8639abd06f3bcb6be7102b9f4875355d54955"
+    },
+    {
+      "stem": "图4_权重消融",
+      "caption": "不同蒸馏权重下的测试准确率",
+      "note": "固定T=2；α=0为普通学生参考，各设置采用随机种子0和1。误差线为样本标准差。",
+      "width_inches": 3.2,
+      "height_inches": 3.15,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图4_权重消融.png",
+      "svg": "图4_权重消融.svg",
+      "png_sha256": "bacf6cc5ce126934c7da6e2d754c73c139c1019386a78d8aeb48825544e3c4e6",
+      "svg_sha256": "feecae1808e0eb0fb7bf512d3018ce97eaa9d3b69006ae245466899f8a51c2a8"
+    },
+    {
+      "stem": "图5_训练预算比较",
+      "caption": "不同训练预算下的测试准确率",
+      "note": "只比较随机种子0和1的同一连续训练轨迹；每个预算均按验证准确率选模。粗线与误差线为均值及样本标准差，细线为单次训练。",
+      "width_inches": 3.2,
+      "height_inches": 2.8,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图5_训练预算比较.png",
+      "svg": "图5_训练预算比较.svg",
+      "png_sha256": "6067d8a3051611dbaac513f95841337da253153b137a03fac4db08b15466869f",
+      "svg_sha256": "268df3c0274f880dd8b517fa56dc3de1dcb935d15dfdaa47b839924f502bec10"
+    },
+    {
+      "stem": "图6_置信度校准诊断",
+      "caption": "普通学生与蒸馏学生的置信度校准诊断",
+      "note": "事后诊断采用15个等宽置信度分箱；期望校准误差越低越好。",
+      "width_inches": 3.2,
+      "height_inches": 2.8,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图6_置信度校准诊断.png",
+      "svg": "图6_置信度校准诊断.svg",
+      "png_sha256": "f66c5a57e870ec141ee7ab5a174d87c81174b0402edb1667bc959ccec6d53da8",
+      "svg_sha256": "5d7d2bd017f435d3de29ae214f1c0105771750d18202531def7d00eb1812a50e"
+    },
+    {
+      "stem": "图7_类别综合指标增益",
+      "caption": "各类别综合指标的配对变化",
+      "note": "综合指标指F1；点和误差线为3个种子下默认蒸馏相对普通学生增益的均值及样本标准差。",
+      "width_inches": 3.2,
+      "height_inches": 3.2,
+      "label_font_pt": 7.5,
+      "dpi": 500,
+      "png": "图7_类别综合指标增益.png",
+      "svg": "图7_类别综合指标增益.svg",
+      "png_sha256": "2f8aad545265182fb49f6bacc61749ffaeb8d30d92ad7e94467439f8a6dbb2eb",
+      "svg_sha256": "f2763e3b7470ce3fe63e5d5de5e92e0a2d292be9bb04a439b94cefddcf772ab2"
+    }
+  ],
+  "source_script": "draw_paper_figures.py",
+  "data_note": "data/DATA_NOTE.md",
+  "data_origin": "Audited saved formal experiment records; minimal plotting-only copies; no new experiment",
+  "calibration_scope": "Post-hoc top-label ECE diagnostic with 15 equal-width bins",
+  "data_files": [
+    {
+      "path": "data/audited_results.json",
+      "sha256": "b4ad3a1451ec7bca1a0932bf8f20312ca125c18f9c996b72c8f7cd4051b7bb69",
+      "bytes": 55189
+    },
+    {
+      "path": "data/classes_analysis.json",
+      "sha256": "2d8e0e8a5fd813b5f277242d00f83dfe51b9effbb80bdecf4969e98822e03760",
+      "bytes": 2232
+    },
+    {
+      "path": "data/DATA_NOTE.md",
+      "sha256": "c185185dd660ecfc4a149adf7b6397f1dd1c6a63fecd4ecf70dcee3afc835a76",
+      "bytes": 1052
+    },
+    {
+      "path": "data/inputs/results_extended/learning_budget_comparison.csv",
+      "sha256": "c9b0d2f2e936db9e1d15cb3f1409d820a85d665555b14e629df5f67c9824ea67",
+      "bytes": 696
+    },
+    {
+      "path": "data/inputs/results_extended/runs_metrics.csv",
+      "sha256": "22743ae878c8fecb719942f88b6b07270ce5310b1b1824b197ade3387e53e049",
+      "bytes": 10071
+    },
+    {
+      "path": "data/inputs/results_extended/summary.json",
+      "sha256": "c5a3af5ce588e654c5c2312bf9338c2ccf78d279c62a31471dcc003fcda9e44d",
+      "bytes": 21775
+    }
+  ]
+}
