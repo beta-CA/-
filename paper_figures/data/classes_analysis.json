@@ -1,0 +1,104 @@
+{
+  "classes": [
+    {
+      "class_index": 0,
+      "class_name": "airplane",
+      "f1_gain_pp": {
+        "mean": 2.1524587005380846,
+        "sample_sd": 1.228234546299823
+      }
+    },
+    {
+      "class_index": 1,
+      "class_name": "automobile",
+      "f1_gain_pp": {
+        "mean": 1.687196579766755,
+        "sample_sd": 0.8112665105415914
+      }
+    },
+    {
+      "class_index": 2,
+      "class_name": "bird",
+      "f1_gain_pp": {
+        "mean": 2.0541772996634697,
+        "sample_sd": 1.770997454419835
+      }
+    },
+    {
+      "class_index": 3,
+      "class_name": "cat",
+      "f1_gain_pp": {
+        "mean": 1.338512005500155,
+        "sample_sd": 2.677205892418992
+      }
+    },
+    {
+      "class_index": 4,
+      "class_name": "deer",
+      "f1_gain_pp": {
+        "mean": 2.962103624696525,
+        "sample_sd": 0.6477364788957944
+      }
+    },
+    {
+      "class_index": 5,
+      "class_name": "dog",
+      "f1_gain_pp": {
+        "mean": -0.26550641582728424,
+        "sample_sd": 1.173668455285095
+      }
+    },
+    {
+      "class_index": 6,
+      "class_name": "frog",
+      "f1_gain_pp": {
+        "mean": 2.213383465318782,
+        "sample_sd": 2.045435335339905
+      }
+    },
+    {
+      "class_index": 7,
+      "class_name": "horse",
+      "f1_gain_pp": {
+        "mean": 0.30493300278522,
+        "sample_sd": 1.7573685630426066
+      }
+    },
+    {
+      "class_index": 8,
+      "class_name": "ship",
+      "f1_gain_pp": {
+        "mean": 0.7023433843357388,
+        "sample_sd": 0.8566948978619092
+      }
+    },
+    {
+      "class_index": 9,
+      "class_name": "truck",
+      "f1_gain_pp": {
+        "mean": 2.6039595521492376,
+        "sample_sd": 1.5472573904372344
+      }
+    }
+  ],
+  "calibration_by_run": {
+    "baseline_seed0": {
+      "ece": 0.057358995927870284
+    },
+    "baseline_seed1": {
+      "ece": 0.079235702213645
+    },
+    "baseline_seed2": {
+      "ece": 0.048357999940216556
+    },
+    "kd_seed0": {
+      "ece": 0.08323414425700905
+    },
+    "kd_seed1": {
+      "ece": 0.05648178737461568
+    },
+    "kd_seed2": {
+      "ece": 0.1462844434350729
+    }
+  }
+}
