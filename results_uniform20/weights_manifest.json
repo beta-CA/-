@@ -1,0 +1,1191 @@
+{
+  "study": "distilling_uniform20_v2",
+  "artifacts": [
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/best.pth",
+      "bytes": 4756223,
+      "sha256": "4d3c3c2e2ef1ad3ebe5f1f2e74a11c97d6a7feda2f452df6f79f2ddc7345c242"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/last.pth",
+      "bytes": 14286599,
+      "sha256": "79de7972bb98d674ec3c63d7d19559e9b761635657bfe316f662bc647629d5a9"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/config.json",
+      "bytes": 3255,
+      "sha256": "d984294e36cf19de78c1288316c5f50d0ddddc26847ca34b7b44ddb82a64ad6e"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/summary.json",
+      "bytes": 1043,
+      "sha256": "6b8d5d5b0a4fba1f177ed68b68016487142883e8ad69c0e90c3aadd4f83b54ed"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/metrics.csv",
+      "bytes": 2381,
+      "sha256": "109de225b041b19f10027be3a9d6dc5947ae7bb6bb8b21afc5208444adf778c5"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/evaluation.json",
+      "bytes": 10781,
+      "sha256": "a0eed261092f74b21f183894bc2c4d4651ffb245fc4e0c0b56486b9736c53dd2"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/predictions.csv",
+      "bytes": 287245,
+      "sha256": "2bb2d96720af6cfa7a9e00a8650fb7e8c986c794fec9215d7d88632c93603ebe"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed0",
+      "path_relative_to_project": "runs_uniform20/teacher_seed0/confusion_matrix.csv",
+      "bytes": 381,
+      "sha256": "2192ad72d8567f2cb2b8a6fe0ee4986c92655ee356e99eeb495b12d3a33b9110"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/best.pth",
+      "bytes": 4756223,
+      "sha256": "a44b762e907190e34356636d879e7fbe52018e5424302365b1786b758a9c9786"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/last.pth",
+      "bytes": 14286663,
+      "sha256": "3caab1a51ccd24c1a900eb1c76aa8d70e25ac2f590c702a8a10a05bc13cac77d"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/config.json",
+      "bytes": 3255,
+      "sha256": "f25e428e30f4c51be5cafd2dc4bc2e33c689b4c4e8dc83c13dd28ec85e833c3e"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/summary.json",
+      "bytes": 1043,
+      "sha256": "5b6535b432d9a01b6a0e114e59e384025e3d9c9a4225a1ce69dec6ed10e3ffbc"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/metrics.csv",
+      "bytes": 2406,
+      "sha256": "cde1c05242001b965764d70c91e0927047a527b48c971134df9f928e1ad905a9"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/evaluation.json",
+      "bytes": 10778,
+      "sha256": "a08fde2965bbd75e09b0fdefb14dad6865835e65e32906d27462a378b4fc7be3"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/predictions.csv",
+      "bytes": 288483,
+      "sha256": "8e8205567d64c1978e8d9003bde374f09d18e2c0644ae2c907b1a64a2a910f47"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed1",
+      "path_relative_to_project": "runs_uniform20/teacher_seed1/confusion_matrix.csv",
+      "bytes": 378,
+      "sha256": "f53641856569d00c272cc995303196d87e37192743f4a0649f8b4b67782cd766"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/best.pth",
+      "bytes": 4756223,
+      "sha256": "568f5ccfc54c7534f1ff88be100841163965f9641f538c40efd7c1613d83b3e7"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/last.pth",
+      "bytes": 14286599,
+      "sha256": "c47090eb7dc9ff2f30121354ce311819ab11a260bec0ec38a10f6002a19b3afb"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/config.json",
+      "bytes": 3255,
+      "sha256": "fb9bb205405d8350363bf6217487897de6f98d23a0a447b294cbc4911be19b4f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/summary.json",
+      "bytes": 1043,
+      "sha256": "2e4c0df971e206659a1de10fec616183802ce52e4af6971ba255160fa0df70ba"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/metrics.csv",
+      "bytes": 2400,
+      "sha256": "20ccab3e779452740a5ae37e64634c840bcaa621382a5268a1bbf7ea0c2f1228"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/evaluation.json",
+      "bytes": 10783,
+      "sha256": "4fd666a19ca4be2b4458adf33638fb49d0ccb9e78b7a1db713fdd39aac8e057f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/predictions.csv",
+      "bytes": 276475,
+      "sha256": "91fab6ff4e4ffc03b8a39b964bb4ddb3a70f3c2183dbfa64f24327b178873ef5"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "teacher_seed2",
+      "path_relative_to_project": "runs_uniform20/teacher_seed2/confusion_matrix.csv",
+      "bytes": 382,
+      "sha256": "5219e813ffe2261945c52472fcf4d317a30beee49df1f6b35cb7cd2fcb7cecc2"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/best.pth",
+      "bytes": 1078029,
+      "sha256": "0ee85183b8320c853e422719aa26a900e36686d287f2f51f5679b98521776155"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/last.pth",
+      "bytes": 3250935,
+      "sha256": "d8b71b33a581e19292844ea19795de77d27593251902203d2d3ee2f157f75a79"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/config.json",
+      "bytes": 3257,
+      "sha256": "cc8d821a1192bf7a152a9ad63712b044eb6439a0d534862836d01d32366dc252"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/summary.json",
+      "bytes": 1041,
+      "sha256": "8a8519088f0394bb66c5aa7370bb4d9f3af9d61fd7a617325352f06fcc555891"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/metrics.csv",
+      "bytes": 2335,
+      "sha256": "d7d0abbd1695003273364b379980e57b13f26dac6800d623093e8cf1356d6b31"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/evaluation.json",
+      "bytes": 10858,
+      "sha256": "9c5d0f15d2d79702ccd11cbd05c630b4840221125b5e2e9b309c287aef9975d6"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/predictions.csv",
+      "bytes": 288607,
+      "sha256": "bace6f54760390f34223a9b152331720adfbd4f040d49c9f83af88589f2d681b"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed0",
+      "path_relative_to_project": "runs_uniform20/baseline_seed0/confusion_matrix.csv",
+      "bytes": 395,
+      "sha256": "4b87ee2e8a1ec8ca757e61db3f6e93e06931eae86dfcf3894eb2f17187ffb5c4"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "c51f642e4e481f6bde0b460b9640ddf37952876c82acec8e43d66f80e12bf035"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/last.pth",
+      "bytes": 3251191,
+      "sha256": "170a13b65494d618af59ecdc80f0a0aa4e51e608d875fc1fddeb5b9b907298d0"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/config.json",
+      "bytes": 3537,
+      "sha256": "484447f37f7d3318fbdacb33de118dee6c963f9d5ebde87524c00cfb5bccfd8f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "f129acf51d81741a4d199003003e9e802d9ab8607648bf27ea9729a9bb6d4403"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/metrics.csv",
+      "bytes": 2678,
+      "sha256": "e6fde435aab3c617c0d1ea628abc2085b1038d1850381690c25cbe03681caeaf"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/evaluation.json",
+      "bytes": 11122,
+      "sha256": "fd0c0ea2642364a69004f4ae219d41a37a5f6c8d80b46609675a10ee3e70c69d"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/predictions.csv",
+      "bytes": 287777,
+      "sha256": "fe0b1c2b5e7885d1cd1129d1bc33f919295ac28d6b3985b6730c57f8a98c7553"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_seed0/confusion_matrix.csv",
+      "bytes": 394,
+      "sha256": "6d2268ed94335c7927058ee4d0f890b8a95ed317f6e96e91f9e5c408bf7f8600"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/best.pth",
+      "bytes": 1078029,
+      "sha256": "a727ffe5d5e43b43246dbdd0ad3970328074be9007c971290b56d2c9f794fd6a"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/last.pth",
+      "bytes": 3250999,
+      "sha256": "3e19c3872746359f6b47cec490c6145b9011ca4678e6b954f00b578ca3fc0e72"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/config.json",
+      "bytes": 3257,
+      "sha256": "acd09bc7ac01fbfbb2556b1a7fb7fdd46b3002a6cd50b1d1aa75db40d23476ba"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/summary.json",
+      "bytes": 1045,
+      "sha256": "d60df319d24cafa6c1ec27f746be2c77f2b4dd2ad2afae2e11c85738f12526c3"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/metrics.csv",
+      "bytes": 2355,
+      "sha256": "46b1e7c44aad209db39190a3ed6f18b951ff40af465c589663aa867db501b07c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/evaluation.json",
+      "bytes": 10866,
+      "sha256": "113b56ceffef0a27f17c6d5a89f0c484f33a35f6043e9bca1484d4ab2af84569"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/predictions.csv",
+      "bytes": 288485,
+      "sha256": "b5d67933147aeb828fea8a2864ea46e2b720f9b0279a62bb263fd93b743d346d"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed1",
+      "path_relative_to_project": "runs_uniform20/baseline_seed1/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "de66443d0faf2d0fcaf1404ea6e619e17258a094997401c40c8458ace1cb4024"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "1f32dd749f8299c26c165711e7cbf78f1eb061d674c6249f5f56e41b77a735f1"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/last.pth",
+      "bytes": 3251191,
+      "sha256": "66dfbe61b68ad5ae782f35d8c7e7fdcb416ee220cedfe2485103c0ae0df6ed40"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/config.json",
+      "bytes": 3537,
+      "sha256": "8b6be36ed98f5f8bbabd6e9a5b578d9490fa2941edca2bb596924c08c59941ae"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/summary.json",
+      "bytes": 1038,
+      "sha256": "14d7615840a06a33db891e563af8dc8c9a3135b46509e103d2351041801183f5"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/metrics.csv",
+      "bytes": 2654,
+      "sha256": "736f775e32e8e7265c4d09a311c1fc7e14a65c9f6a104d9b2a1deb5895bd939f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/evaluation.json",
+      "bytes": 11150,
+      "sha256": "95965953b436beab3a3dfbe20134b4e9017a06b9faf762b65f0b9a1ba91286ba"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/predictions.csv",
+      "bytes": 288465,
+      "sha256": "c528ee1c51952881b8af7fcd35d305f05fe2eda4cc15c37e3de3c7d15015d587"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_seed1/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "f04f998e5ec8d940dcd19a9f4b549160a3ac2e855c0e75f8350b9cd3c69ac81c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/best.pth",
+      "bytes": 1078029,
+      "sha256": "70dc06a5a153e21bb71316d967933d058739893c8f5b3ed6d9bb40aa45052755"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/last.pth",
+      "bytes": 3250999,
+      "sha256": "535061db7225ac3a61134bd1eb9ba3275fd4428e65961b751843ed6f9468dfa8"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/config.json",
+      "bytes": 3257,
+      "sha256": "311a806d91d7a9ee6d0e8b80b63b816b5d6e2904da1d26330ff286ee95ff3716"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/summary.json",
+      "bytes": 1043,
+      "sha256": "368b1067bc54921ed0538791fa8f3b541e8520b79214e1e1e2711d2cd8b52abb"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/metrics.csv",
+      "bytes": 2370,
+      "sha256": "76dcfca0ed2ba37f3be873e48a0da9129ae518c87c96087834a133e8005f05e4"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/evaluation.json",
+      "bytes": 10873,
+      "sha256": "0d2f62de5e2d297e4cca5947658b0d87665d3fea704eb2e28adf375924146daa"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/predictions.csv",
+      "bytes": 288638,
+      "sha256": "b96653053da4b6f924f483f2a80e65a524863d4bc3a80c36daf7ceb120b231e7"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "baseline_seed2",
+      "path_relative_to_project": "runs_uniform20/baseline_seed2/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "9519eac296a29ed0668c6ce9ff8d9e7aff98e0576a7e4f53fee87752863ac8f6"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/best.pth",
+      "bytes": 1078285,
+      "sha256": "a15f3a15f9f23222b04b85e17a8cfb67eaa06d6a10eeffeb38a608999b487c51"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/last.pth",
+      "bytes": 3251191,
+      "sha256": "2189233773a27cf4b8ddbc82e220229c73a0210b9ef0defe9ef850f970d8fdb8"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/config.json",
+      "bytes": 3537,
+      "sha256": "240bbd42e4242eb705a322bb5fbce76241584bba443f6b8b59f9496e3e802ab4"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/summary.json",
+      "bytes": 1037,
+      "sha256": "8f880d81b17dc09460ea7c33d1ef42ae1ce78f876089844b0cdf605f2346bb59"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/metrics.csv",
+      "bytes": 2635,
+      "sha256": "9e6f6a2cb722be51582ab63fdabf510c85abcb1bf2fcfe76239d774086a2f3ea"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/evaluation.json",
+      "bytes": 11126,
+      "sha256": "6248af23b866b78229842157156ea84f6afd8ef642444cbcc6d2a5e0ed63302e"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/predictions.csv",
+      "bytes": 283785,
+      "sha256": "f16add08358db73bd169ff0deb8f11311089b8235b833a59406050afb2695ef6"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_seed2",
+      "path_relative_to_project": "runs_uniform20/kd_seed2/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "9f5d130dc0e68366300460bda496af35ed51bef73c65d4cfc2025b7168206d6c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "d8efc9f1ad52115213e3267f88c0872971ab367e591e1ccf9f7bcb7b8ced0ae7"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/last.pth",
+      "bytes": 3251191,
+      "sha256": "05bb1ca3efffc26f9f5fb23292c45caeb899ab2453f07715b94bc72fc7939acf"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/config.json",
+      "bytes": 3547,
+      "sha256": "5a0709b14982f966c3364030a915b47248116644d83208562dc62f77b684daf3"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "06f81f4f3ba5aaffa591b9daa3fdf903d8f065eaba341674a714ce530f1d1336"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/metrics.csv",
+      "bytes": 2697,
+      "sha256": "53d65ab88585c5b27485d746c93586d42d94c026aa4af9fc0e1fea8e644fbc24"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/evaluation.json",
+      "bytes": 11174,
+      "sha256": "a24a6cbf2a3b13310b3ff369032024d5d79246db997948be2da977c1f0db001c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/predictions.csv",
+      "bytes": 287965,
+      "sha256": "00640ff89295daaec72c3629afe57b9f3d654149b83f4d0a31b8f98f5ac144f0"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed0/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "d7a656533b6ddfdf33515e11031932087387878391d4e393aa08b4e869a6d660"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "c5dd5d1f25753614dba01dfe8c2354fdb81c2f2c6791adab9cabb90415e166ed"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/last.pth",
+      "bytes": 3251255,
+      "sha256": "b182a579abc21f77c1b79e5ad83c685e9f70bc4331987a71ba12a2b0c2ba76eb"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/config.json",
+      "bytes": 3547,
+      "sha256": "ca09c05358a9dd403012d94fa0eca4e880a2d6c6689fc59f7d1f609e08954892"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "b382795ea02812f441a099bd07d08290a92e245d5a198035933ea3e97fe698ac"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/metrics.csv",
+      "bytes": 2675,
+      "sha256": "34cc850360939bafa99458bc5af1f6e0a5559e0ba073c562c44313709ed8d160"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/evaluation.json",
+      "bytes": 11169,
+      "sha256": "16dffb3850d39700ce738281db1573da5d3eba736876ea15aefdad1353e46b14"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/predictions.csv",
+      "bytes": 288118,
+      "sha256": "1dc21ddee141d2ba3f768a80e2c2ef3b0bbde74d7a86d0bfcdc492739957adf3"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T1_seed1/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "41b6e1f9c552497feaf02cf9d9f76987aa918e9ec7d8378778feb18762441f34"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "ec59e869f5b9ecd536705cabc4d554bb0fdc41fab777526c6dc048b3a2618be2"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/last.pth",
+      "bytes": 3251191,
+      "sha256": "75bfa48983f010a515f385cb17e6d97a756011df1bd2d569ebc7c989214479a1"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/config.json",
+      "bytes": 3547,
+      "sha256": "4cf03a7dbbb6f9a6180109712990c0460d6814f80d54e8c4d1ec963fa593cfd2"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/summary.json",
+      "bytes": 1038,
+      "sha256": "e06e4ba31c0de4bed0578142574616371a2fb11297e1ab58001db8c6f6af7c1c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/metrics.csv",
+      "bytes": 2618,
+      "sha256": "8e73d5b31425754258343fa48a8d9e61010ce02a6f54f2f487918f16c8b3d68c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/evaluation.json",
+      "bytes": 11174,
+      "sha256": "068c02a48830a5fcd56960d8fd2d77ecbd4729d7dfbe1e8ebd79373981e31b2a"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/predictions.csv",
+      "bytes": 287754,
+      "sha256": "634857fecd0d5b3c96f13d94be88e2cf5d45851a5780a93508ec86e6ba176225"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed0/confusion_matrix.csv",
+      "bytes": 390,
+      "sha256": "98a7e69654890012ffc94efde54fb69e00333af56ced803d5d9e07e831cde174"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "74e02edb95d6eddb3eee8393aacf7b9bdd6aa6751d593cbf30f0873a7e109238"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/last.pth",
+      "bytes": 3251255,
+      "sha256": "b20764e897eaa84dce48e14a760c03ef6caa91aaa6f76dfc53dcdb4e8581f4c8"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/config.json",
+      "bytes": 3547,
+      "sha256": "df922c135fa2a150c953ee9098714e6ad1874b656cbbbd6b10c23f1e7c489e2f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/summary.json",
+      "bytes": 1038,
+      "sha256": "ff4a399c3b1bae1d576865e18703e0ec1cb6ddc5e9669a5dcd2ead0366028a2b"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/metrics.csv",
+      "bytes": 2645,
+      "sha256": "d8218c319fe03486ed4017304fc53a2b0dfbef924632967f87767bd2b939cbed"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/evaluation.json",
+      "bytes": 11164,
+      "sha256": "58ec9295331aaccf6bc58a4b134184eabc6c08b989a2e046f1239e39b1216606"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/predictions.csv",
+      "bytes": 288436,
+      "sha256": "c344c10f60805240c1e0694fe4f0d09569ea2b612926ac6120f532dec4b1612e"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T4_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T4_seed1/confusion_matrix.csv",
+      "bytes": 386,
+      "sha256": "444042abe2380570c270c63d954649c1fb76715edd2f81d8dfadab184db98b29"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "99b30544aa002608356b20f029319ee1b528fd42560c92dae6eb13382b31c0b6"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/last.pth",
+      "bytes": 3251127,
+      "sha256": "f2981b2fd8c572ef87ce9742037ece88d7750b18a010e083f6cc491bde9a73f7"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/config.json",
+      "bytes": 3547,
+      "sha256": "1bcf51891f88bba7a32cd1739d1c6f1cfd5cad0f2dc43660f1f714b03f95c7a3"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "7b76c1d9a8449b9cf5570502288e7f7a45a4abb60e01b085b456fb634e87e2e4"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/metrics.csv",
+      "bytes": 2667,
+      "sha256": "6c77ca0069ef70f3305accb59e1ddb0f511bba5fcb7d51cda3fc4994bb4b537f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/evaluation.json",
+      "bytes": 11187,
+      "sha256": "f40acc8f3998a4a17b058288bbd474f0ba05877f549ec9c785fdd6d25f16191c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/predictions.csv",
+      "bytes": 287628,
+      "sha256": "f903a3e159b6a1249af628306c25d20313f65994e18a8c2bca2a4ad95b7b6bd1"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed0/confusion_matrix.csv",
+      "bytes": 385,
+      "sha256": "fd25a752b393735cffe6ad1bdc11d77de126a549a2d792d90f197def95a7c9e9"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "9ff6c0ed0eb179d67e6cc436189eec2a94a5b9e60231e0ffbb91dfd9a07cbefc"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/last.pth",
+      "bytes": 3251191,
+      "sha256": "049fbcb2300a1773b397e51420c0b8beddc1880675fd436094e636171d7956b0"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/config.json",
+      "bytes": 3547,
+      "sha256": "97482753b3eee3b0f06c428c677ed06ec234ff023946b96e3e5082447b6eb086"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/summary.json",
+      "bytes": 1038,
+      "sha256": "61d9cd74ff8c3a3fa17a8c7fdf412d17c6531a305adee64966c4d03f8f82f583"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/metrics.csv",
+      "bytes": 2671,
+      "sha256": "e5b5484b7b8f2a20be29d28779d9e8475a64961a621e11874485ec11d6c7ea60"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/evaluation.json",
+      "bytes": 11171,
+      "sha256": "0598b27f75f7f195afb3697e0865966f542bb80e1ae654fc27e3c270db74468f"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/predictions.csv",
+      "bytes": 288523,
+      "sha256": "d5b5e586dfb2071e816d1535d03f12c247f0a29a342e61d598edec87f9503b61"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_T8_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_T8_seed1/confusion_matrix.csv",
+      "bytes": 387,
+      "sha256": "cd7d3abc8e7b90fbafda457dafbbb59e20c40d8b458c600872820c255f984e33"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "e6422875a981c653018d551c2d93eb80ea4bea726715315a8828976e783f2bfc"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/last.pth",
+      "bytes": 3251191,
+      "sha256": "64e36c1fa69e30e091c645ffe121a5fe629a41b92d6e855cc048802c43f34b48"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/config.json",
+      "bytes": 3542,
+      "sha256": "2ed4a2198adbc135283b75ef159b9e25119e215a969e67f12c425b90168d0db7"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "945ad04edcb271432af4c5e6b573d7e741dd082973d2cc47cf84dfce02b17120"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/metrics.csv",
+      "bytes": 2662,
+      "sha256": "5d16103ba4ad1d8b9aeeabfff2145adeea4d18845fa2dfe0e12de0f118adc0cf"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/evaluation.json",
+      "bytes": 11162,
+      "sha256": "f6f3cf0490cb2b1b14ff7cb67240a004b07a8544dd0625ef1d177b8d7a148bd4"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/predictions.csv",
+      "bytes": 288264,
+      "sha256": "edce6fc659a2d06facc6d3bde069d87c27cd6f15e4be352f11f2a4a806e06b04"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed0/confusion_matrix.csv",
+      "bytes": 388,
+      "sha256": "6394a2f4f92dfe01ba000cb3c31ab46f1fb5d56e2c1611f1f8473be2b90ee2b6"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "3042cab9c01293398d5bd03f02b3655d68e604ca330d68f2747d1b11d4150da2"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/last.pth",
+      "bytes": 3251255,
+      "sha256": "970a453a2f2c5128e5e98dbe0e82e500b3d33529c2142afb622ba8fe29c6c5db"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/config.json",
+      "bytes": 3542,
+      "sha256": "c76ec92e297384d6ceabcfa60f5a07e86e0948a73033c7cc560c9ae6096d7a24"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "04a7f4323f3fba5fca7b41207319d7b51885c50f1e42e6788f8667420e54d352"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/metrics.csv",
+      "bytes": 2609,
+      "sha256": "55ad40ae919e0a2ecbb9abb613aea7a733633fe79bed9ed2801d98c7c019ddaf"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/evaluation.json",
+      "bytes": 11148,
+      "sha256": "eca8f1105bae89c2dbed5c2e5be637153d5f6ceba6ac6109bf78f6c18649bf05"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/predictions.csv",
+      "bytes": 288689,
+      "sha256": "8fa972fd3eee48b50bad134848b91250cf5b5e17c58ab2aa590750a46fe03b54"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p1_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p1_seed1/confusion_matrix.csv",
+      "bytes": 391,
+      "sha256": "0fcbaaca5b16dc321046e275acd94a420bd155bc6bbd30dcda7066a588ec4f8a"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "4618fe01a97adf7b276581f5d39c5b819bc5cef1d938408c0781f180ce6a0e58"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/last.pth",
+      "bytes": 3251191,
+      "sha256": "1703af83db058dab645ef0a35641fd3e24a174d2f73d370fe83c6b8b7d6ac938"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/config.json",
+      "bytes": 3542,
+      "sha256": "dca3d4493ceb1404f2d9d947ea5fef56de8f3b20eae1e75175c15719014297c5"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "24eaf35f84dd04221666e6e109e62e041a5ff6a87309b9a67132576c9da7f21c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/metrics.csv",
+      "bytes": 2656,
+      "sha256": "31a5048460ba18eaa83087e35375a004e833222c9299a84ba03c9fa2140e283d"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/evaluation.json",
+      "bytes": 11163,
+      "sha256": "fcac35ea4f62a667080252e64f787c3f86557c85536dfc609c4741d15d13fe08"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/predictions.csv",
+      "bytes": 288081,
+      "sha256": "e7f9e4823b6b01e326240cf17b1ffb93cc3b42313da0f31dd96ba944777fad5e"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed0/confusion_matrix.csv",
+      "bytes": 394,
+      "sha256": "ca47025e61093194dc7f083f8024d3c6cc2040714ac8babc747c4104071f1d51"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "fffa6f128ade9bb46a1a33b1737b39a3fb095ae59e3421338bdfca820496c528"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/last.pth",
+      "bytes": 3251255,
+      "sha256": "ab21df9e3f7b9092a10a781eff4fc217777ceac14672a12319b5c34d3e1af79a"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/config.json",
+      "bytes": 3542,
+      "sha256": "64244800c78f6804dedee61be968328d9a3f884c546833c30dd26d810db076a0"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "073b919eb892dbd075fdd0c9eecf4f1296031300aa34fee5638a238d3815d63a"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/metrics.csv",
+      "bytes": 2652,
+      "sha256": "deaa5a3dd830ad4ba931f3ed21399e0cf248c34e09da94c95c6f9f868924bee8"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/evaluation.json",
+      "bytes": 11141,
+      "sha256": "fdfa9c81c672188b7ae7f94ef37ef74777f90f1d3b9443100f781ac56eb304e6"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/predictions.csv",
+      "bytes": 288580,
+      "sha256": "ffe767aa3190386481f716cdd744c240f1985f0c2b41e9babdd5d5134bbb94bf"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p5_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p5_seed1/confusion_matrix.csv",
+      "bytes": 392,
+      "sha256": "c929fe077802c35a2b4c11228d478d8ca8488f168162fa7fe6c61556eebdf8e1"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/best.pth",
+      "bytes": 1078285,
+      "sha256": "82e756ce990bd9023258fbead8555ff66a6875c8cc7e4ded85b069efa3979411"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/last.pth",
+      "bytes": 3251127,
+      "sha256": "8a5bc078fe258977e27bdf374a2bbd42d0b992a4cec3f50f881262550ccc1611"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/config.json",
+      "bytes": 3544,
+      "sha256": "5e58d1d80d81a74980bef5e693fb2cb9d5cd2b82af8a5c86850ba04834d7138b"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/summary.json",
+      "bytes": 1039,
+      "sha256": "8a1617792bf86f3aa985edd4a124cbb8a16293b1f9730a781d7410fd86f8a44c"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/metrics.csv",
+      "bytes": 2636,
+      "sha256": "417957be10108d7a977d48cb0e6ef8d399f4f4ff65e727a095a1983841cd3cd0"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/evaluation.json",
+      "bytes": 11149,
+      "sha256": "704b85f1cc9ea82908428a0950a0d1f0ffae4ae01d7548561513b266c93f02ab"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/predictions.csv",
+      "bytes": 288036,
+      "sha256": "10420129f0c44d01daeffd9674dc42b8daf3493d4dc0b7245cc4c01443a889b1"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed0",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed0/confusion_matrix.csv",
+      "bytes": 390,
+      "sha256": "6e556f0dc8f8bb205336296e577373c8d9aa6405cc6f3fd73f0acc53d28e8e29"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/best.pth",
+      "bytes": 1078285,
+      "sha256": "562d7b548a1c2925a773afd6fc8bf634e9c900d7da9e22e12f4475705ac37e56"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/last.pth",
+      "bytes": 3251191,
+      "sha256": "e9c60fe38d0aa9d53ee48621f61211d847abf23c9e8167586fa60a2e471c778b"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/config.json",
+      "bytes": 3544,
+      "sha256": "9a3952586d78158fd9ccfb44102a428e0daa45b51e1e97354498c8d4deb02b15"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/summary.json",
+      "bytes": 1039,
+      "sha256": "105b36ee2551ec2318121343391920ed43e96328802c2f6c6492c78ececef19b"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/metrics.csv",
+      "bytes": 2673,
+      "sha256": "cb39130afc1a173b7d7647dbf7e3df632072a5c0c9d41c466061a31114baadea"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/evaluation.json",
+      "bytes": 11139,
+      "sha256": "770e975d053c7685b1158780d70e7dcfc164758a1cb00ffd2f7d121af1ce69af"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/predictions.csv",
+      "bytes": 288658,
+      "sha256": "ff243ee723360a7ff2f9c19afe85c1b1d470d6c21b7fd075154e62a174045851"
+    },
+    {
+      "kind": "uniform20_case",
+      "case_id": "kd_A0p75_seed1",
+      "path_relative_to_project": "runs_uniform20/kd_A0p75_seed1/confusion_matrix.csv",
+      "bytes": 389,
+      "sha256": "a31e7e537a8055d2318fa00803238e7df51ca9a937d8859e1e998e6d207ae49d"
+    },
+    {
+      "kind": "split_index",
+      "case_id": null,
+      "path_relative_to_project": "runs_uniform20/splits/split_cifar10_seed20261026.json",
+      "bytes": 539285,
+      "sha256": "53c5943fba94947c26cbc623d77e1a5482713b5dee5cf7bee64feb6c988bf563"
+    }
+  ],
+  "weight_selection": "highest validation accuracy; earliest epoch wins ties",
+  "split_sha256": "200ea914f794a2b79bca5e1f0f83ddfa81b2b490c5208ba03f78af78e0c1a5f2",
+  "note": "仅包含本次统一20轮实验的真实权重与结果；此清单不会自动上传文件。"
+}

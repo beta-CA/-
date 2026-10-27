@@ -1,11 +1,19 @@
-> **当前方案：教师、普通学生和蒸馏学生统一训练20轮。**
-> 运行 `run_uniform20_experiments.py`，或继续使用 `run_extended_experiments.py`。
-> 共21组、420个epoch，全部从头训练，输出 `runs_uniform20/`、`results_uniform20/`。
-> 完整设置见 [UNIFORM20_EXPERIMENT_PLAN.md](UNIFORM20_EXPERIMENT_PLAN.md)。
-> 新方案尚无正式训练结果。下文的论文数据和v1.0.0资产属于历史实验，不能标为新20轮结果。
-> 历史补充实验入口为 `run_legacy_extended_experiments.py`，原始六组入口仍为 `run_all_experiments.py`。
-
 # 知识蒸馏温度与损失权重实验
+
+当前论文实验版本为 **v2.0.0 统一20轮实验**。教师、普通学生和蒸馏学生均从头训练20轮，21组已全部完成。
+结果见 [RESULTS_UNIFORM20.md](RESULTS_UNIFORM20.md) 和 `results_uniform20/`。
+
+- [当前代码与全部权重 v2.0.0](https://github.com/beta-CA/-/releases/tag/v2.0.0)
+- 权重：`distilling-weights-v2.0.0.zip`，代码快照：`distilling-code-v2.0.0.zip`。
+- 包含3个教师、3个普通学生与15个蒸馏学生的best/last权重和完整实验记录。
+- 新入口：`python run_uniform20_experiments.py`；PyCharm可右键同名文件直接运行，无需参数。
+- 预览：`python run_uniform20_experiments.py --dry-run`；说明见 [UNIFORM20_EXPERIMENT_PLAN.md](UNIFORM20_EXPERIMENT_PLAN.md)。
+- 重新训练使用空的新输出目录；新机器不要直接在下载的历史路径元数据上续训。
+- 本版本训练与验证日志累计约199.20分钟。具体指标、限制与逐组数据见上面的结果页。
+
+历史代码、结果和v1.0.0发布资产保留如下，不能当作本次统一20轮的新运行记录。
+
+## v1.0.0 历史实验记录
 
 这是课程论文的可复现实验代码与真实结果，研究CIFAR-10上输出知识蒸馏的温度、损失权重和训练预算。
 论文中的方法是经典知识蒸馏的复现与参数分析，没有将单因素参数实验作为新算法。
