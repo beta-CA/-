@@ -1,3 +1,10 @@
+> **当前方案：教师、普通学生和蒸馏学生统一训练20轮。**
+> 运行 `run_uniform20_experiments.py`，或继续使用 `run_extended_experiments.py`。
+> 共21组、420个epoch，全部从头训练，输出 `runs_uniform20/`、`results_uniform20/`。
+> 完整设置见 [UNIFORM20_EXPERIMENT_PLAN.md](UNIFORM20_EXPERIMENT_PLAN.md)。
+> 新方案尚无正式训练结果。下文的论文数据和v1.0.0资产属于历史实验，不能标为新20轮结果。
+> 历史补充实验入口为 `run_legacy_extended_experiments.py`，原始六组入口仍为 `run_all_experiments.py`。
+
 # 知识蒸馏温度与损失权重实验
 
 这是课程论文的可复现实验代码与真实结果，研究CIFAR-10上输出知识蒸馏的温度、损失权重和训练预算。
@@ -41,7 +48,7 @@ python prepare_data.py
 
 ```powershell
 python run_all_experiments.py
-python run_extended_experiments.py
+python run_legacy_extended_experiments.py
 ```
 
 在PyCharm中也可以依次右键这两个文件运行，不需要填写参数。
@@ -50,7 +57,7 @@ python run_extended_experiments.py
 再运行温度与损失权重消融；它会校验并跳过已完成组，并从已提交轮次恢复。
 第二步依赖第一步的真实教师、学生与汇总结果，不能从空目录只运行第二步。
 中断后重新运行相同入口。训练过程中不要修改训练代码、配置、环境和原有结果。
-只预览任务时执行 `python run_all_experiments.py --dry-run` 或 `python run_extended_experiments.py --dry-run`。
+只预览任务时执行 `python run_all_experiments.py --dry-run` 或 `python run_legacy_extended_experiments.py --dry-run`。
 
 主实验采用种子0、1、2；温度消融采用T=1、2、4、8，固定α=0.25；
 权重消融采用α=0.1、0.25、0.5、0.75，固定T=2，两类消融均使用种子0和1。

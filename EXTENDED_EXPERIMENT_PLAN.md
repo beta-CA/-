@@ -1,3 +1,6 @@
+> **历史方案记录**：本文件描述已完成并发布的10轮教师/20轮学生实验。
+> 当前 `run_extended_experiments.py` 已转到统一20轮的新方案，见 [UNIFORM20_EXPERIMENT_PLAN.md](UNIFORM20_EXPERIMENT_PLAN.md)。
+> 若要复现本文件的历史方案，请改用 `run_legacy_extended_experiments.py`。
 # 约三小时的补充实验
 
 目标按“已有实验＋补充实验”的整套累计训练与验证约3小时估算。
