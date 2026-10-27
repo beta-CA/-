@@ -1,0 +1,151 @@
+{
+  "study": "distilling_uniform20_v2",
+  "figures": [
+    {
+      "number": 1,
+      "stem": "图1_知识蒸馏流程",
+      "width_cm": 8.125,
+      "height_cm": 8.2042,
+      "font_pt": 9.0,
+      "dpi": 600,
+      "png": "图1_知识蒸馏流程.png",
+      "svg": "图1_知识蒸馏流程.svg",
+      "png_sha256": "ecb59797b8f654c222f88cab61a3e3b68ec54d30c8619fe57a9eca2519e67a72",
+      "svg_sha256": "9800597f5b03e4393cbd7325f0be7e4415b7bda19e70ed3ab246c95918871abf",
+      "statistical_definition_for_body_text": "原创知识蒸馏流程；教师固定，学生同时学习温度软目标与真实标签，虚线为反向更新。",
+      "has_figure_note": false,
+      "legend_inside_canvas": true
+    },
+    {
+      "number": 2,
+      "stem": "图2_验证准确率曲线",
+      "width_cm": 8.125,
+      "height_cm": 6.2738000000000005,
+      "font_pt": 9.0,
+      "dpi": 600,
+      "png": "图2_验证准确率曲线.png",
+      "svg": "图2_验证准确率曲线.svg",
+      "png_sha256": "8314213cc1d5c27e455999629d42fbfd15cd01a172c7e9f0932ddd264985db8a",
+      "svg_sha256": "8c054cbbf0961f82814d6d375dc1e0faef4678a1c578860a65d89f745c8da7d4",
+      "statistical_definition_for_body_text": "教师、普通学生及默认蒸馏学生均训练20轮；曲线为种子0、1、2的逐轮算术均值，无平滑处理。",
+      "has_figure_note": false,
+      "legend_inside_canvas": true
+    },
+    {
+      "number": 3,
+      "stem": "图3_温度消融",
+      "width_cm": 8.125,
+      "height_cm": 6.2738000000000005,
+      "font_pt": 9.0,
+      "dpi": 600,
+      "png": "图3_温度消融.png",
+      "svg": "图3_温度消融.svg",
+      "png_sha256": "18b9de5b861ff7fdd707ea6321e06d847e53dc2eb5dbd7dc36a1b6cd314103f7",
+      "svg_sha256": "9565281bf349bd8286663f012a2660b062886e66f5aead53d44bb7ae30b8d939",
+      "statistical_definition_for_body_text": "固定α=0.25，种子0和1，误差线为样本标准差；普通学生水平线为同两种子均值69.810%。",
+      "has_figure_note": false,
+      "legend_inside_canvas": true
+    },
+    {
+      "number": 4,
+      "stem": "图4_权重消融",
+      "width_cm": 8.125,
+      "height_cm": 6.2738000000000005,
+      "font_pt": 9.0,
+      "dpi": 600,
+      "png": "图4_权重消融.png",
+      "svg": "图4_权重消融.svg",
+      "png_sha256": "580057ce270db3b3472bfe64e26f16a865ebb8764dc4386dc92abc7858262f5d",
+      "svg_sha256": "23a3319447db4db7c65939d0c2b52288fa4ec1b9d65064de35e8d70dcba91dce",
+      "statistical_definition_for_body_text": "固定T=2，种子0和1，误差线为样本标准差；普通学生水平线为有效α=0参考，均值69.810%。",
+      "has_figure_note": false,
+      "legend_inside_canvas": true
+    },
+    {
+      "number": 5,
+      "stem": "图5_验证交叉熵曲线",
+      "width_cm": 8.125,
+      "height_cm": 6.2738000000000005,
+      "font_pt": 9.0,
+      "dpi": 600,
+      "png": "图5_验证交叉熵曲线.png",
+      "svg": "图5_验证交叉熵曲线.svg",
+      "png_sha256": "7f580082a23a55c2df4f702a2050e4468c5aafc705f00cea77165342f463980a",
+      "svg_sha256": "916e901263286b9cbe4b7d34379c6fcae47cd4dadf3feb57471630f028278e63",
+      "statistical_definition_for_body_text": "教师、普通学生及默认蒸馏学生均训练20轮；曲线为种子0、1、2的逐轮算术均值，无平滑处理。",
+      "has_figure_note": false,
+      "legend_inside_canvas": true
+    },
+    {
+      "number": 6,
+      "stem": "图6_置信度校准诊断",
+      "width_cm": 8.125,
+      "height_cm": 6.2738000000000005,
+      "font_pt": 9.0,
+      "dpi": 600,
+      "png": "图6_置信度校准诊断.png",
+      "svg": "图6_置信度校准诊断.svg",
+      "png_sha256": "3b400351a7dee2ad2d0f422fb684d38ad4ad3b4d4f02f23a96d9cf3dd073701a",
+      "svg_sha256": "e7f65efcf07a168222c08a9a581a8c26c8d8aadb841e8352c08d56f57776dbf2",
+      "statistical_definition_for_body_text": "事后补充诊断：15个等宽最高类别置信度分箱；每个柱来自对应种子的10000条最终预测，数值越小越好。",
+      "has_figure_note": false,
+      "legend_inside_canvas": true
+    }
+  ],
+  "font_pt_at_printed_width": 9.0,
+  "printed_width_cm": 8.125,
+  "dpi": 600,
+  "all_labels_chinese": true,
+  "style": "monochrome with distinct line styles and point markers; uncluttered legends; no external notes",
+  "inputs_sha256": {
+    "results_uniform20\\summary.json": "19e0d5fac7d3b20a7d29b535a71c11b5203e262d974c4ef4049860bcc60ecdef",
+    "runs_uniform20\\teacher_seed0\\metrics.csv": "109de225b041b19f10027be3a9d6dc5947ae7bb6bb8b21afc5208444adf778c5",
+    "runs_uniform20\\teacher_seed1\\metrics.csv": "cde1c05242001b965764d70c91e0927047a527b48c971134df9f928e1ad905a9",
+    "runs_uniform20\\teacher_seed2\\metrics.csv": "20ccab3e779452740a5ae37e64634c840bcaa621382a5268a1bbf7ea0c2f1228",
+    "runs_uniform20\\baseline_seed0\\metrics.csv": "d7d0abbd1695003273364b379980e57b13f26dac6800d623093e8cf1356d6b31",
+    "runs_uniform20\\baseline_seed1\\metrics.csv": "46b1e7c44aad209db39190a3ed6f18b951ff40af465c589663aa867db501b07c",
+    "runs_uniform20\\baseline_seed2\\metrics.csv": "76dcfca0ed2ba37f3be873e48a0da9129ae518c87c96087834a133e8005f05e4",
+    "runs_uniform20\\kd_seed0\\metrics.csv": "e6fde435aab3c617c0d1ea628abc2085b1038d1850381690c25cbe03681caeaf",
+    "runs_uniform20\\kd_seed1\\metrics.csv": "736f775e32e8e7265c4d09a311c1fc7e14a65c9f6a104d9b2a1deb5895bd939f",
+    "runs_uniform20\\kd_seed2\\metrics.csv": "9e6f6a2cb722be51582ab63fdabf510c85abcb1bf2fcfe76239d774086a2f3ea",
+    "runs_uniform20\\baseline_seed0\\predictions.csv": "bace6f54760390f34223a9b152331720adfbd4f040d49c9f83af88589f2d681b",
+    "runs_uniform20\\baseline_seed1\\predictions.csv": "b5d67933147aeb828fea8a2864ea46e2b720f9b0279a62bb263fd93b743d346d",
+    "runs_uniform20\\baseline_seed2\\predictions.csv": "b96653053da4b6f924f483f2a80e65a524863d4bc3a80c36daf7ceb120b231e7",
+    "runs_uniform20\\kd_seed0\\predictions.csv": "fe0b1c2b5e7885d1cd1129d1bc33f919295ac28d6b3985b6730c57f8a98c7553",
+    "runs_uniform20\\kd_seed1\\predictions.csv": "c528ee1c51952881b8af7fcd35d305f05fe2eda4cc15c37e3de3c7d15015d587",
+    "runs_uniform20\\kd_seed2\\predictions.csv": "f16add08358db73bd169ff0deb8f11311089b8235b833a59406050afb2695ef6"
+  },
+  "source_project_root": ".",
+  "read_only_analysis": true,
+  "ece_percent_by_role": {
+    "baseline": [
+      5.735899592787027,
+      7.923570221364498,
+      4.835799994021654
+    ],
+    "kd": [
+      8.323414425700904,
+      5.648178737461567,
+      14.62844434350729
+    ]
+  },
+  "style_references": [
+    {
+      "title": "Distilling the Knowledge in a Neural Network",
+      "url": "https://arxiv.org/pdf/1503.02531"
+    },
+    {
+      "title": "Decoupled Knowledge Distillation",
+      "url": "https://arxiv.org/pdf/2203.08679"
+    },
+    {
+      "title": "Nature official figure preparation guide",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/"
+    },
+    {
+      "title": "Cambridge official artwork guidelines",
+      "url": "https://www.cambridge.org/core/services/aop-file-manager/file/5da6dc5e807d44780a804757"
+    }
+  ],
+  "source_script_sha256": "99f4e939ab9d9ce993bf9fb1e2fe5cf882788aae995b410ec8db0d4f65fcb4ec"
+}

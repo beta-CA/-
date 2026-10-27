@@ -11,6 +11,8 @@
 - 重新训练使用空的新输出目录；新机器不要直接在下载的历史路径元数据上续训。
 - 本版本训练与验证日志累计约199.20分钟。具体指标、限制与逐组数据见上面的结果页。
 
+论文使用的清晰中文版图源位于 [paper_figures_uniform20/](paper_figures_uniform20/)，含6幅PNG、可编辑SVG和绘图脚本。先把v2.0.0权重包中的 `runs_uniform20/` 解压到仓库根目录，再运行 `python paper_figures_uniform20/draw_uniform20_figures.py --output-root ./redrawn_figures` 即可重绘。
+
 历史代码、结果和v1.0.0发布资产保留如下，不能当作本次统一20轮的新运行记录。
 
 ## v1.0.0 历史实验记录
