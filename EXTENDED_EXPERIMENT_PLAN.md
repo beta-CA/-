@@ -9,7 +9,7 @@
 
 ## 运行入口
 
-右键 `run_extended_experiments.py`，选择运行，不用填写参数。
+右键 `run_legacy_extended_experiments.py`，选择运行，不用填写参数。
 该入口会自动进行新增任务与续训，并在完成后测试和汇总。停止后重新运行同一个文件即可恢复。
 原 `run_all_experiments.py` 仍对应最初6组10轮实验；补充期间请使用新入口。
 

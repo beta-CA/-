@@ -8,7 +8,7 @@
 
 右键 **run_uniform20_experiments.py**，选择运行，不需要脚本参数。
 原来的 **run_extended_experiments.py** 现在也转到这个新方案。
-解释器继续使用 `D:\miniconda3\envs\study\python.exe`。
+解释器使用已安装 CUDA 版 PyTorch 的 Python 环境。运行 `python main.py` 可以检查环境。
 
 只查看计划：`python run_uniform20_experiments.py --dry-run`。
 中断后重新运行同一个入口，会从上一个完整轮次恢复；已完成且通过校验的组会跳过。
@@ -45,7 +45,7 @@
 旧 `runs/`、`runs_extended/`、`results/`、`results_extended/` 保留原样。
 旧论文及v1.0.0权重反映原来的实验设置，不能当作新方案的20轮结果。
 新结果只有在实际运行结束后才能写入论文或发布，不能提前改写历史数值。
-历史版本复现顺序为 `python run_all_experiments.py`、`python run_legacy_extended_experiments.py`。
+历史实验的复现步骤见 [v1.0.0 的说明](https://github.com/beta-CA/-/blob/v1.0.0/README.md)。
 
 新方案全套从头运行的时间会长于原补充实验的“新增部分”；预览会按已有实测速率估算，
 具体以本次每轮日志为准。预览不启动训练、下载或测试。

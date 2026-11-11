@@ -1,4 +1,4 @@
-"""Check the configured environment. Formal training uses Run All 6 Experiments."""
+"""Check the configured environment for the uniform-20 study."""
 import os
 os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")
 import json
@@ -13,7 +13,6 @@ def main():
     import torch
     import torchvision
     from models import build_model, distillation_loss, source_information
-    from prepare_data import prepare_data
 
     torch.set_num_threads(4)
     if not torch.cuda.is_available():
@@ -55,7 +54,7 @@ def main():
     (reports / "environment.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, indent=2))
     print("\nEnvironment check complete. No formal training was started.")
-    print("To train: run run_all_experiments.py, then run_extended_experiments.py.")
+    print("To train: python run_uniform20_experiments.py")
 
 
 if __name__ == "__main__":

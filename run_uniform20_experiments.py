@@ -139,12 +139,17 @@ def main():
     print(f"Uniform-20 complete. Weights/logs: {output}; tables/Chinese figures: {results}", flush=True)
 
 
-if __name__ == "__main__":
+def cli():
     try:
         main()
     except KeyboardInterrupt:
         print("Stopped. Run this same file to resume from completed epoch boundaries.", file=sys.stderr)
-        sys.exit(130)
+        return 130
     except Exception as error:
         print(f"Uniform-20 study stopped: {error}", file=sys.stderr, flush=True)
-        sys.exit(1)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(cli())

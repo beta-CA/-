@@ -1,157 +1,64 @@
 # 知识蒸馏温度与损失权重实验
 
-当前论文实验版本为 **v2.0.0 统一20轮实验**。教师、普通学生和蒸馏学生均从头训练20轮，21组已全部完成。
-结果见 [RESULTS_UNIFORM20.md](RESULTS_UNIFORM20.md) 和 `results_uniform20/`。
+课程论文在 CIFAR-10 上比较教师、普通学生和蒸馏学生。正式实验包含 21 组从头训练的模型，每组训练 20 轮，按验证准确率选择最佳权重。主实验使用 3 个种子，温度和损失权重各用 2 个种子做单因素比较。[实验结果](RESULTS_UNIFORM20.md) · [实验方案](UNIFORM20_EXPERIMENT_PLAN.md)
 
-- [当前代码与全部权重 v2.0.0](https://github.com/beta-CA/-/releases/tag/v2.0.0)
-- 权重：`distilling-weights-v2.0.0.zip`，代码快照：`distilling-code-v2.0.0.zip`。
-- 包含3个教师、3个普通学生与15个蒸馏学生的best/last权重和完整实验记录。
-- 新入口：`python run_uniform20_experiments.py`；PyCharm可右键同名文件直接运行，无需参数。
-- 预览：`python run_uniform20_experiments.py --dry-run`；说明见 [UNIFORM20_EXPERIMENT_PLAN.md](UNIFORM20_EXPERIMENT_PLAN.md)。
-- 重新训练使用空的新输出目录；新机器不要直接在下载的历史路径元数据上续训。
-- 本版本训练与验证日志累计约199.20分钟。具体指标、限制与逐组数据见上面的结果页。
+- 当前代码在本仓库的 `main` 分支。正式实验表、图和逐组统计在 [`results_uniform20/`](results_uniform20/)。
+- 正式权重归档 `distilling-weights-v2.0.0.zip` 包含 21 组模型的 `best.pth`、`last.pth`、配置、训练记录和测试结果。发布页还提供代码快照、`SHA256SUMS.txt` 和逐文件清单。[v2.0.0 发布页](https://github.com/beta-CA/-/releases/tag/v2.0.0)
 
-论文使用的清晰中文版图源位于 [paper_figures_uniform20/](paper_figures_uniform20/)，含6幅PNG、可编辑SVG和绘图脚本。先把v2.0.0权重包中的 `runs_uniform20/` 解压到仓库根目录，再运行 `python paper_figures_uniform20/draw_uniform20_figures.py --output-root ./redrawn_figures` 即可重绘。
+## 环境与训练
 
-历史代码、结果和v1.0.0发布资产保留如下，不能当作本次统一20轮的新运行记录。
+安装适配本机 CUDA 的 PyTorch 和 torchvision，再安装 [`requirements.txt`](requirements.txt) 中的其余依赖。正式实验使用 CUDA、FP32、批量大小 128 和 2 个数据加载进程。实测版本与设备见 [`environment.lock.txt`](environment.lock.txt)。
 
-## v1.0.0 历史实验记录
-
-这是课程论文的可复现实验代码与真实结果，研究CIFAR-10上输出知识蒸馏的温度、损失权重和训练预算。
-论文中的方法是经典知识蒸馏的复现与参数分析，没有将单因素参数实验作为新算法。
-
-- 代码仓库：https://github.com/beta-CA/-
-- 代码与全部正式权重下载：[https://github.com/beta-CA/-/releases/tag/v1.0.0](https://github.com/beta-CA/-/releases/tag/v1.0.0)
-- 发布版本：`v1.0.0`
-- 权重文件：`distilling-weights-v1.0.0.zip`；代码快照：`distilling-code-v1.0.0.zip`
-- 校验文件：Release资产中的 `SHA256SUMS.txt` 与 `PUBLISH_CONTENTS.json`
-
-## 方法与开源来源
-
-方法参考Hinton、Vinyals和Dean的论文 [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)。
-网络结构和蒸馏实现参考[PyTorch官方知识蒸馏教程](https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html)，
-教程仓库固定提交为 `c8ccbbf7fcb8cb71adda1b957bd6bab50e29c2e6`。
-`vendor/pytorch_tutorial/` 保留原教程模型代码、参考源码、BSD-3-Clause许可证和来源哈希。
-这不是Hinton等原作者发布的实验实现，也没有复现其全部数据集与实验。
-其余数据划分、配对实验、检查点恢复、统一测试和结果汇总代码用于本课程实验。具体来源见 `NOTICE.md`。
-
-## 环境
-
-实测环境记录在 `environment.lock.txt`：Python 3.12.13，PyTorch 2.13.0+cu126，
-torchvision 0.28.0+cu126，NumPy 2.4.4，Matplotlib 3.11.0，CUDA运行时12.6，
-NVIDIA GeForce RTX 3060 Laptop GPU 6 GiB。
-`requirements.txt` 给出基本依赖范围；请根据自己硬件和PyTorch官方安装说明选择匹配的CUDA版本。
-正式实验入口固定使用CUDA、FP32、批量大小128和2个数据加载工作进程。
-不同软件或硬件环境下，数值与运行时间可能变化。
-
-## 从空输出目录重新训练
-
-建议将仓库放在独立目录中，先保留仓库里的结果文件副本用于对照。
-正式复现从没有 `runs/`、`runs_extended/` 的工作目录开始，不要把下载的历史权重解压到这个重训目录。
-仓库不包含CIFAR-10数据集。入口会从官方来源准备数据并核验官方MD5，也可先执行数据准备：
+从仓库根目录检查环境并预览 21 组任务。
 
 ```powershell
-python prepare_data.py
+python main.py
+python run_uniform20_experiments.py --dry-run
 ```
 
-首次完整运行按以下顺序执行，每一步等前一步完成：
+重新训练使用独立副本。把副本中的已发布 `results_uniform20/` 改名留作对照，并为新训练留出空的 `runs_uniform20/` 和 `results_uniform20/`。入口会准备 CIFAR-10 并核验官方 MD5，然后依次训练、测试和汇总。也可先单独运行 `python prepare_data.py` 准备数据。
 
 ```powershell
-python run_all_experiments.py
-python run_legacy_extended_experiments.py
+python run_uniform20_experiments.py
 ```
 
-在PyCharm中也可以依次右键这两个文件运行，不需要填写参数。
-第一步训练种子0和1的教师、普通学生和默认蒸馏学生，共6组，每组10轮。
-第二步先独立训练种子2教师，原学生继承第10轮的模型、Adam和随机状态继续到20轮，
-再运行温度与损失权重消融；它会校验并跳过已完成组，并从已提交轮次恢复。
-第二步依赖第一步的真实教师、学生与汇总结果，不能从空目录只运行第二步。
-中断后重新运行相同入口。训练过程中不要修改训练代码、配置、环境和原有结果。
-只预览任务时执行 `python run_all_experiments.py --dry-run` 或 `python run_legacy_extended_experiments.py --dry-run`。
+PyCharm 可直接运行 `run_uniform20_experiments.py`。原有 `run_extended_experiments.py` 入口指向同一套 20 轮流程。中断后重新执行同一入口可从最近完整轮次恢复，已完成且通过校验的组会跳过。`runs_uniform20/` 保存训练记录和权重，`results_uniform20/` 保存测试汇总，`reports/` 保存运行进度和控制台日志。
 
-主实验采用种子0、1、2；温度消融采用T=1、2、4、8，固定α=0.25；
-权重消融采用α=0.1、0.25、0.5、0.75，固定T=2，两类消融均使用种子0和1。
-α是KL蒸馏项权重，真实标签交叉熵权重为1−α，KL包含T²缩放。
-默认T=2、α=0.25的模型跨表复用，没有重复计为独立实验。
-教师预算10轮，学生预算20轮，均按验证准确率最高选模、并列取较早轮。
-所有新增训练完成后统一测试。配置详见 `configs/experiments.json` 和 `configs/extended_experiments.json`。
+## 使用已发布权重
 
-## 正式结果与权重
-
-`results/` 保存最初6组10轮实验的汇总；`results_extended/` 保存补充实验的正式表格、图像与文件哈希清单。
-权重归档保留以下相对路径：
-
-```text
-runs/                        # 原6组正式实验
-runs/splits/                 # 原训练/验证划分索引
-runs_extended/               # 19组新增或续训正式实验
-runs_extended/splits/        # 补充实验使用的同一划分索引
-results/                     # 原实验结果表与图
-results_extended/            # 补充实验结果表与图
-```
-
-每个正式组包含 `best.pth`、`last.pth`、`config.json`、`metrics.csv`、`summary.json`、
-`evaluation.json`、`predictions.csv` 和 `confusion_matrix.csv`。
-`best.pth` 是验证集选出的模型，`last.pth` 另外保存优化器与随机状态供原环境断点恢复。
-最终21个不同模型由3个教师、3个普通学生和15个蒸馏模型组成；归档另外保留4个原10轮学生作为训练预算对照，
-所以归档共有25个正式训练目录，而不是25个最终独立条件。
-
-| 主实验模型 | 3种子测试准确率（均值±样本标准差） | 参数量 |
-|---|---:|---:|
-| 教师 | 75.530% ± 0.060% | 1,186,986 |
-| 普通学生 | 69.757% ± 0.144% | 267,738 |
-| 默认蒸馏学生 | 71.250% ± 0.406% | 267,738 |
-
-默认蒸馏配对提升1.493个百分点，三个种子均为正。T=8和α=0.5分别在各自2种子单因素实验中取得最高观察均值，
-二者并未作为联合配置测试。默认蒸馏平均测试交叉熵有所恶化，不能宣称所有指标全面改善。
-日志累计训练及每轮验证约181.34分钟；不含中断等待、最终测试和绘图的完整墙钟时间。
-所有结果来自实际保存的正式实验，合成验证夹具与临时初始化备份不在发布资产中。
-补充前已查看原测试结果，本研究属于探索性扩展；种子数量较少，不报告普遍性或显著性结论。
-
-## 历史路径与在新机器上使用权重
-
-为保留真实来源与文件哈希，正式检查点及其 `config.json`、`evaluation.json` 中的历史绝对路径保持原样。
-这些路径是原训练位置的元数据，不是新机器需要创建的目录，也不包含登录口令或访问令牌。
-原严格续训和审计入口会核对路径、环境、源码及依赖哈希，因此下载权重后直接在另一台机器原地续训或完整审计可能被拒绝。
-重新训练请按上面的空输出目录流程进行，生成新机器自己的路径与来源记录。
-核对权重文件可使用Release的SHA-256清单；推理时只加载模型状态，不需要恢复历史路径：
+下载 v2.0.0 权重归档，对照发布页的 `SHA256SUMS.txt` 校验后解压。下面以种子 0 的蒸馏学生为例，从解压目录加载验证集选出的 `best.pth`。
 
 ```python
 import torch
+
+from kd_utils import build_transform
 from models import build_model
 
-# 仅对本项目已校验的可信检查点使用weights_only=False。
-checkpoint = torch.load("runs_extended/kd_seed0/best.pth",
-                        map_location="cpu", weights_only=False)
+checkpoint = torch.load(
+    "runs_uniform20/kd_seed0/best.pth", map_location="cpu", weights_only=True
+)
 model = build_model(checkpoint["config"]["role"])
 model.load_state_dict(checkpoint["model_state"], strict=True)
 model.eval()
+preprocess = build_transform()
 ```
 
-输入为3×32×32图像，像素转为[0,1]后按均值[0.485,0.456,0.406]与标准差[0.229,0.224,0.225]归一化。
-完整评估需要对应数据与划分。发布权重包含Python/NumPy随机状态，只应从本仓库核验后的可信来源加载。
+`preprocess` 将 32×32 的 RGB 图像转为张量，并按正式实验的通道均值和标准差归一化。正式恢复与审计会检查训练路径和来源哈希。在不同机器上可加载已发布权重做推理，重新训练时从空输出目录生成本机记录。
 
-## 发布内容和排除项
+重新下载 v2.0.0 权重后，在 CIFAR-10 的 10,000 张正式测试图像上对全部 21 组 `best.pth` 做了独立复验。共 210,000 条类别预测均与发布记录一致，逐组准确率、交叉熵和宏平均 F1 均复现到论文报告精度。[正式实验结果](RESULTS_UNIFORM20.md)
 
-代码包不包含数据集、本机IDE配置、`configs/local_paths.json`、运行报告中的私有环境记录、缓存或备份。
-源目录中的原训练/模型/评估/汇总源码及vendor来源文件逐字节保留，避免改变已记录的来源哈希。
-公开副本仅将 `main.py` 的本机解释器提示改为通用提示，并移除 `requirements.txt` 首行的本机路径注释；
-README和gitignore为发布用途重新编写。这些变化不修改训练算法或已发布检查点。
-`NOTICE.md`和vendor许可证保留上游归属；若再分发上游代码，应同时保留这些文件。
+## 绘图
 
-
-## 论文中文图
-
-`paper_figures/`提供图1至图6的现成PNG与可编辑SVG，图7为补充类别分析图。
-图中文字标注为中文，采用黑白线型、标记和纹理，适合论文打印。
-在安装宋体（SimSun）与Times New Roman字体的环境中，可从仓库根目录运行：
+[`paper_figures_uniform20/`](paper_figures_uniform20/) 提供统一 20 轮实验的中文 PNG、可编辑 SVG 和绘图脚本。将权重归档中的 `runs_uniform20/` 解压到仓库根目录后，可根据日志和结果表重绘。
 
 ```powershell
-python paper_figures/draw_paper_figures.py
+python paper_figures_uniform20/draw_uniform20_figures.py --output-root ./redrawn_figures
 ```
 
-该命令只读取附带的最小绘图数据并重新生成图，不训练或测试模型。
-数据来自已审计的正式记录；ECE是15等宽置信区间的事后补充诊断，不是新增实验。
-最小数据副本已裁去本机绝对路径和不需要的配置，来源说明见`paper_figures/data/DATA_NOTE.md`。
-SVG保留可编辑文字，实际图文件哈希见`paper_figures/figure_manifest.json`。
-本次主分支的中文图追加不改动v1.0.0已发布ZIP和标签。
+图源及统计定义见 [绘图说明](paper_figures_uniform20/FIGURE_STYLE_AND_DATA.md)。
+
+## 历史实验与来源
+
+`results/`、`results_extended/` 和 `paper_figures/` 是早期 10 轮与续训实验记录。历史实验的入口、结果和权重见 [v1.0.0 发布页](https://github.com/beta-CA/-/releases/tag/v1.0.0) 及 [当时的复现说明](https://github.com/beta-CA/-/blob/v1.0.0/README.md)。
+
+蒸馏方法参考 [Hinton、Vinyals 和 Dean 的原论文](https://arxiv.org/abs/1503.02531)。模型和实现参考 [PyTorch 知识蒸馏教程](https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html)，原教程的模型、源码、许可证和固定提交信息位于 [`vendor/pytorch_tutorial/`](vendor/pytorch_tutorial/)。[代码来源说明](NOTICE.md)
